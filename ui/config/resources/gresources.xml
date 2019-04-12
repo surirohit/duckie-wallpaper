@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/net/launchpad/livewallpaper/ui/config">
+    <file compressed="true" preprocess="xml-stripblanks">livewallpaper-config.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">files-selector.ui</file>
+  </gresource>
+</gresources>

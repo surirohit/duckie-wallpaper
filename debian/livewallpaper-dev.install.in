@@ -1,0 +1,4 @@
+usr/include/
+@CMAKE_ROOT@/Modules/
+usr/lib/pkgconfig/
+usr/bin/lw-generate-schema

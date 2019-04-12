@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/net/launchpad/livewallpaper/plugins/nexus/">
+    <file>images/glow-radial.png</file>
+    <file>images/glow-square.png</file>
+    <file>images/glow-spiral.png</file>
+    <file>images/glow-concentric-cirles.png</file>
+    <file>images/trail.png</file>
+  </gresource>
+</gresources>

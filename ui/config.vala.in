@@ -1,0 +1,14 @@
+[Compact]
+public class Config {
+    public const string GETTEXT_PACKAGE = "livewallpaper";
+    public const string LW_SETTINGS     = "net.launchpad.livewallpaper";
+    public const string LW_BUS          = "net.launchpad.LiveWallpaper";
+
+    public const string BASEDIR = "@CMAKE_INSTALL_PREFIX@/";
+    public const string LIBDIR  = BASEDIR + "lib/";
+    public const string DATADIR = BASEDIR + "share/";
+
+    public const int    MAJOR   = @LW_VERSION_MAJOR@;
+    public const int    MINOR   = @LW_VERSION_MINOR@;
+    public const int    MICRO   = @LW_VERSION_MICRO@;
+}

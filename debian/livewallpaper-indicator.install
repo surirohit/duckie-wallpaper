@@ -1,0 +1,5 @@
+usr/bin/livewallpaper-indicator
+etc/xdg/autostart/livewallpaper-indicator.desktop
+usr/share/icons/ubuntu-mono-dark/
+usr/share/icons/ubuntu-mono-light/
+usr/share/icons/hicolor/scalable/status/

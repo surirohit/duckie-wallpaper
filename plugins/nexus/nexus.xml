@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<enum id="net.launchpad.livewallpaper.plugins.nexus.glow-type">
+		<value nick="radial"             value="0" />
+		<value nick="square"             value="1" />
+		<value nick="spiral"             value="2" />
+		<value nick="concentric circles" value="3" />
+	</enum>
+
+	<schema id="net.launchpad.livewallpaper.plugins.nexus" path="/net/launchpad/livewallpaper/plugins/nexus/">
+		<lw:tab name="Particle Settings">
+			<key type="i" name="pulse-count">
+				<range min="0" max="300" />
+				<default>40</default>
+				<summary>Number of pulses</summary>
+				<description>Number of pulses</description>
+			</key>
+			<key type="i" name="pulse-size">
+				<range min="8" max="64" />
+                <lw:scale />
+				<default>16</default>
+				<summary>Pulse size</summary>
+				<description>Size of a pulse</description>
+			</key>
+			<key type="(dd)" name="pulse-length">
+				<lw:range min="0.0" max="1.0" />
+                <lw:increment>0.1</lw:increment>
+				<lw:digits>2</lw:digits>
+				<lw:type>range</lw:type>
+				<default>(0.1,0.4)</default>
+				<summary>Pulse length</summary>
+				<description>Length of a pulse</description>
+			</key>
+			<key type="i" name="max-delay">
+				<range min="1" max="10000" />
+				<lw:increment>500</lw:increment> 
+				<default>5000</default>
+				<summary>Max delay</summary>
+				<description>This is the maximum time a pulse needs to reappear on the screen in milliseconds.</description>
+			</key>
+		</lw:tab>
+		<lw:tab name="Appearance">
+			<key name="glow-type" enum="net.launchpad.livewallpaper.plugins.nexus.glow-type">
+				<default>"radial"</default>
+				<summary>Glow type</summary>
+				<description>The shape of the glow</description>
+			</key>
+			 <lw:separator/> 
+			<key type="s" name="color1">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (255, 0, 0, 255)"</default>
+				<summary>Color 1</summary>
+				<description>Pulse color</description>
+			</key>
+			<key type="s" name="color2">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (255, 255, 0, 255)"</default>
+				<summary>Color 2</summary>
+				<description>Pulse color</description>
+			</key>
+			<key type="s" name="color3">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (0, 255, 0, 255)"</default>
+				<summary>Color 3</summary>
+				<description>Pulse color</description>
+			</key>
+			<key type="s" name="color4">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (0, 0, 255, 255)"</default>
+				<summary>Color 4</summary>
+				<description>Pulse color</description>
+			</key>
+			<key type="b" name="random-colors">
+				<default>false</default>
+				<summary>Use random pulse colors</summary>
+				<description>Use random pulse colors instead of the four selected colors</description>
+			</key>
+		</lw:tab>
+	</schema>
+</schemalist>

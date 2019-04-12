@@ -1,0 +1,8 @@
+[Plugin]
+Module=gradclock
+IAge=1
+Name=Gradient Clock
+Description=A clock consisting of gradient circles
+Authors=Koichi Akabe <vbkaisetsu@gmail.com>; Aurelien Riviere <aurelien.riv@gmail.com>
+Copyright=Copyright © 2013-2016 Koichi Akabe
+License-type=gpl-3-0

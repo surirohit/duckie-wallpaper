@@ -1,0 +1,943 @@
+# Slovak translation for livewallpaper
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the livewallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: livewallpaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2014-01-25 17:24+0000\n"
+"Last-Translator: Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr ""
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr ""
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr "Mriežka obrázkov"
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr "Live wallpaper inšpirovaný Ubuntu phone OS"
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr "Rotujúca galaxia s tisíckami hviezd"
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "Aktívne rozšírenie"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr ""
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr "Pridať novú položku"
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "Animované pozadie"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "Nastavenia animácií"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr "Trvanie animácie (ms)"
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "Vzhľad"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "Automatické spustenie"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "Farba pozadia"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "Obrázok pozadia"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr ""
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "Vystrediť"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr "Vyberte rozšírenie pre pozadie"
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "Farba"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "Farba 1"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "Farba 2"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "Farba 3"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "Farba 4"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "Farba v strede galaxie"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr "Farba hlavného kruhu"
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "Farba vonkajších častí galaxie"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "Farba času a dátumu. To je tiež farba bodiek."
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr "Polomer farby"
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr "Farebné impulzy pohybujúce sa z jednej strany obrazovky na druhú"
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "Farby"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr "Stĺpce"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr ""
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "Konfigurovať live wallpaper"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "Vlastný obrázok"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "Formát dátumu"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "Deň-Mesiac-Rok"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "Deň, Mesiac, Rok"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr "Predvolené pozadie"
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr "Určite, či má byť LiveWallpaper spustený automaticky"
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr "Oneskorenie ďalšej animácie"
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr "Určuje ako bude vykreslený obrázok na pozadí"
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr ""
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "Vykresliť hviezdu s pruhmi"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "Vykresliť hviezdu pruhmi"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr "Trvanie animácie"
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "Povoliť vlastnú farbu svetla"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr "Ukončiť vyhladzovanie"
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr "Každých 10 minút"
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "Každých 30 minút"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "Každú hodinu"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "Každú minútu"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "FPS Limit"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr "Čas vyblednutia"
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr ""
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "Vyplniť"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "Písmo"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "Farba písma"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr "Osvetlenie galaxie"
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "Všeobecný"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr "Typ vyžarovania"
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "Horizontálne farebný spád"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "Ako často meniť farby?"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr "Ukazovateľ pre nastavenie live wallpaper"
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "Vnútorná farba"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr "Ľavá alebo dolná farba pri kreslení prechodov, alebo jednofarebná"
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr "Dĺžka impulzov"
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr "Životnosť"
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr "Životvosť častíc v sekundách"
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "Obmedziť počet snímok za sekundu na túto hodnotu"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "LiveWallpaper"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr "Ukazovateľ LiveWallpaper"
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "Nastavenia LiveWallpaper"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "Nastavenia LiveWallpaper..."
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr "Hlavný kruh"
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr "Maximálne oneskorenie"
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "Mesiac-Deň-Rok"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "Mesiac.Deň.Rok"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "Posun, otočenie a priblíženie"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "Viac výstupový režim"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "Viacero obrázkov"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr "Počet častíc"
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr "Počet pulzov"
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "Počet hviezdičiek"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "Posun X"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "Posun Y"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr ""
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr ""
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "Jeden veľký obrázok"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr ""
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr "Daľšie kruhy"
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "Vonkajšia farba"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr "Nastavenie častíc"
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr "Veľkosť častice"
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "Cesta použitá pre obrázok na pozadí"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr "Pauza (ms)"
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "Nastavenia obrázkov"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr "Priečinok s obrázkami"
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "Hlavná farba"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr "Farba pulzu"
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr "Dĺžka impulzu"
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr "Veľkosť pulzu"
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr "Polomer radiálnych farebných pruhov"
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "Odstrániť zvolenú položku"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr "Typ zobrazenia"
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr "Nahraďte svoju predvolenú tapetu OpenGL animovanou tapetou."
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "Nastavenie na predvolenú hodnotu"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr ""
+"Pravá alebo horná farba pri kreslení prechodov, nepoužitá pre jednofarebný"
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "Otočenie X"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "Otočenie X"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "Otočenie Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr "Otáčajte galaxiu pomocou súradníc X"
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr "Otáčajte galaxiu pomocou súradníc Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr "Otáčajte galaxiu pomocou súradníc Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr "Riadky"
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "Prispôsobiť mierke"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr "Vyhľadať obrázky v priečinkoch"
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "Sekundárna farba"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr "Vyberte priečinok"
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr ""
+"Slúži na voľbu, ako zobraziť live wallpaper, ak je používaný viacerými "
+"výstupnými zariadeniami"
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "Nastaviť viditeľnosť"
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "Zobraziť alebo skryť live wallpaper"
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr ""
+"Zobrazenie alebo skrytie live wallpaper. Tým spustíte LiveWallpaper, ak ešte "
+"nie je spustený."
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "Jedna farba"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "Veľkosť"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr "Veľkosť častíc"
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr "Veľkosť pulzu"
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "Veľkosť hviezdy"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr "Veľkosť hlavného kruhu"
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr "Pomaly sa hýbajúce bubliny"
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr "Plynulosť na začiatku animácie (0.0: lineárne, 1.0: pomaly)"
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr "Plynulosť na konci animácie (0.0: lineárne, 1.0: pomaly)"
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "Veľkosť hviezdy"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr "Spustiť vyhladzovanie"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+"Prvý rad tohto obrázku bude použitý ako zoznam možných farieb pre kruhy. Aká "
+"farba bude zvolená, závisí na hodnote intervalu aktualizácie a šírky obrazu, "
+"takže nebudú použité všetky farby."
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "Písmo použité pre čas a dátum"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr "Názov aktívneho rozšírenia"
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr "Počet obrázkov na každú vodorovnú líniu"
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr "Počet obrázkov na každú zvislú líniu"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr "Tvar vyžarovania"
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr "Čas potrebný na objavovanie alebo miznutie častíc"
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr "To je maximálna doba pulzu keď sa objaví na obrazovke v milisekundách."
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr ""
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "Dlaždica"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "Priehľadnosť"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr "Priehľadnosť hlavného kruhu"
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "Interval aktualizácie"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "Použiť 24 hodinové zobrazenie"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr "Použiť náhodné farby impulzov"
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr "Použiť náhodné farby namiesto vybraných štyroch farieb"
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "Vertikálne farebný spád"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr "Posunutie X stredu galaxie"
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr "Posunutie Y stredu galaxie"
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "Rok-Mesiac-Deň"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "Rok.Mesiac.Deň"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "Priblížiť"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "Priblíženie a oddialenie"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr "sústredné kruhy"
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr "z"
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr "radiálny"
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr "špirála"
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr "štvorec"
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr "do"
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Maximilian Schnarr https://launchpad.net/~fyrmir\n"
+"  Milan Slovák https://launchpad.net/~milboys"
+
+#~ msgid "Cannot find settings for this plugin."
+#~ msgstr "Nenašli sa nastavenia pre toto rozšírenie."
+
+#~ msgid "Define whether the livewallpaper should autostart at startup"
+#~ msgstr "Určite, či bude livewallpaper spustený automaticky"
+
+#~ msgid "Define which plugin is currently enabled."
+#~ msgstr "Definujte ktoré rozšírenie bude povolené."
+
+#~ msgid "Folders"
+#~ msgstr "Priečinky"
+
+#~ msgid "How to shade the background color"
+#~ msgstr "Ako tieňovať farbu pozadia"
+
+#~ msgid "Livewallpaper"
+#~ msgstr "Livewallpaper"
+
+#~ msgid "Max length"
+#~ msgstr "Maximálna dĺžka"
+
+#~ msgid "Max length of a pulse"
+#~ msgstr "Maximálna dĺžka pulzu"
+
+#~ msgid "Min length"
+#~ msgstr "Minimálna dĺžka"
+
+#~ msgid "Min length of a pulse"
+#~ msgstr "Minimálna dĺžka pulzu"
+
+#~ msgid "Move the window behind all other desktop windows"
+#~ msgstr "Presunúť okno pod všetky ostatné okná na ploche"
+
+#~ msgid "Pictures"
+#~ msgstr "Obrázky"
+
+#~ msgid "Select a picture"
+#~ msgstr "Vyberte obrázok"
+
+#~ msgid ""
+#~ "Selects how the livewallpaper is displayed if multiple output devices are "
+#~ "used"
+#~ msgstr ""
+#~ "Zvoľte ako má byť zobrazený livewallpaper, ak ho používa viac výstupných "
+#~ "zariadení"
+
+#~ msgid "Set whether the livewallpaper is running or not"
+#~ msgstr "Nastavte, či bude livewallpaper spustený alebo nie"
+
+#~ msgid "Shading Type"
+#~ msgstr "Druh tieňovania"
+
+#~ msgid "Show FPS in the lower right corner"
+#~ msgstr "Zobraziť FPS v pravom dolnom rohu"
+
+#~ msgid ""
+#~ "Show or hide the live wallpaper. This will start the livewallpaper "
+#~ "application if it is not already running."
+#~ msgstr ""
+#~ "Zobrazenie alebo skrytie live wallpaper. Tým spustíte aplikáciu "
+#~ "LiveWallpaper, ak už nie je spustená."
+
+#~ msgid "Start LiveWallpaper if autostart is enabled"
+#~ msgstr "Spustiť LiveWallpaper ak je povolené automatické spustenie"
+
+#~ msgid "Start or stop the livewallpaper"
+#~ msgstr "Spustiť alebo zastaviť livewallpaper"
+
+#~ msgid "The name of the active livewallpaper plugin"
+#~ msgstr "Názov aktívneho rozšírenia livewallpaper"
+
+#~ msgid "Time to switch from one color to another color"
+#~ msgstr "Čas v ktorom sa prepne na inú farbu"
+
+#~ msgid "Use Custom Background"
+#~ msgstr "Použiť vlastné pozadie"
+
+#~ msgid "Use custom background or the default background of the active plugin"
+#~ msgstr "Použiť vlastné pozadie ako predvolené pre aktívne rozšírenie"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Pozadia"

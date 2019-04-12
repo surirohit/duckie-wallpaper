@@ -1,0 +1,8 @@
+[Plugin]
+Module=noise
+IAge=1
+Name=Noise
+Description=Slowly moving bubbles
+Authors=Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>
+Copyright=Copyright © 2012-2016 Maximilian Schnarr
+License-type=gpl-3-0

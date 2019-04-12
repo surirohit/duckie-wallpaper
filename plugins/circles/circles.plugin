@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python
+Module=circles
+IAge=1
+Name=Circles
+Description=A live wallpaper inspired by Ubuntu phone OS
+Authors=Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>
+Copyright=Copyright © 2013-2016 Maximilian Schnarr
+License-type=gpl-3-0

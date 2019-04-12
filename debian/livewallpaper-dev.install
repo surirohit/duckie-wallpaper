@@ -1,0 +1,4 @@
+usr/include/
+/usr/share/cmake-3.5/Modules/
+usr/lib/pkgconfig/
+usr/bin/lw-generate-schema

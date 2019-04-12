@@ -1,0 +1,41 @@
+#!/bin/bash
+
+show_usage() {
+	echo "Usage: $(basename $0) [-d TARGET_DIRECTORY] SETTINGS_FILE"
+	exit
+}
+
+TARGET_DIRECTORY="."
+while getopts ":d:h" opt; do
+	case $opt in
+		d)
+			TARGET_DIRECTORY="${OPTARG%/}"
+			;;
+		h)
+			show_usage
+			;;
+		\?)
+			echo "Invalid option: -$OPTARG" >&2
+			show_usage
+			;;
+	esac
+done
+shift $((OPTIND - 1))
+
+if [ -z "$1" ]; then
+	show_usage
+fi
+
+SCHEMA_ID=`sed -n "s/.*schema.*id=\"\\([a-zA-Z\\.]*\\)\".*/\\1/ p" $1 | tr -d '\n'`
+OUTPUT="$TARGET_DIRECTORY/$SCHEMA_ID.gschema.xml"
+
+#if [ -f "$OUTPUT" ]; then
+#	echo "ERROR: $OUTPUT already exists!" >&2
+#	exit
+#fi
+
+if [ ! -d "$TARGET_DIRECTORY" ]; then
+	mkdir -p "$TARGET_DIRECTORY"
+fi
+
+sed -e 's%<lw:.*>.*</lw:.*>%%' -e 's%<lw:.*/>%%' -e 's%<lw:.*>%%' -e 's%</lw:.*>%%' $1 > $OUTPUT

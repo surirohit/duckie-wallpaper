@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+_Name=LiveWallpaper
+_Comment=Animated wallpapers
+Icon=livewallpaper
+TryExec=livewallpaper
+Exec=sh -c "livewallpaper & exit || gsettings set net.launchpad.livewallpaper active true"
+Terminal=false
+StartupNotify=false

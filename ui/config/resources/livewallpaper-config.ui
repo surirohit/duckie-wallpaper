@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.1
+
+Copyright (C) 2012-2016
+
+This file is part of LiveWallpaper.
+
+LiveWallpaper is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+LiveWallpaper is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with LiveWallpaper.  If not, see <http://www.gnu.org/licenses/>.
+
+Authors:
+Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>
+Aurélien RIVIÈRE <aurelien.riv@gmail.com>
+
+-->
+<interface domain="livewallpaper">
+  <requires lib="gtk+" version="3.10"/>
+  <!-- interface-license-type gplv3 -->
+  <!-- interface-name LiveWallpaper -->
+  <!-- interface-description LiveWallpaper replaces your current wallpaper with an animated wallpaper. -->
+  <!-- interface-copyright 2012-2016 -->
+  <!-- interface-authors Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>\nAur\303\251lien RIVI\303\210RE <aurelien.riv@gmail.com> -->
+  <object class="GtkAccelGroup" id="accelgroup"/>
+  <object class="GtkAdjustment" id="opacity_adjustement">
+    <property name="lower">0.5</property>
+    <property name="upper">1</property>
+    <property name="value">1</property>
+    <property name="step_increment">0.050000000000000003</property>
+    <property name="page_increment">0.050000000000000003</property>
+  </object>
+  <object class="GtkListStore" id="store">
+    <columns>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_PLUGIN -->
+      <column type="GObject"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_ICON -->
+      <column type="GdkPixbuf"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_NAME -->
+      <column type="gchararray"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_PLUGIN_ROW -->
+      <column type="gboolean"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_TOGGLE_ROW -->
+      <column type="gboolean"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_TITLE -->
+      <column type="gchararray"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_HEADING_ROW -->
+      <column type="gboolean"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_SORT_KEY -->
+      <column type="gint"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_VISIBILITY -->
+      <column type="gboolean"/>
+      <!-- column-name LWC_PLUGIN_STORE_COLS_WIDGET -->
+      <column type="GObject"/>
+    </columns>
+    <data>
+      <row>
+        <col id="3">False</col>
+        <col id="4">False</col>
+        <col id="5" translatable="yes">&lt;b&gt;Wallpapers&lt;/b&gt;</col>
+        <col id="6">True</col>
+        <col id="7">1</col>
+        <col id="8">True</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkWindow" id="window">
+    <property name="can_focus">False</property>
+    <property name="border_width">12</property>
+    <property name="title" translatable="yes">LiveWallpaper Preferences</property>
+    <property name="default_width">900</property>
+    <property name="default_height">525</property>
+    <property name="icon_name">livewallpaper-config</property>
+    <accel-groups>
+      <group name="accelgroup"/>
+    </accel-groups>
+    <child>
+      <object class="GtkPaned" id="paned1">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <child>
+          <object class="GtkScrolledWindow" id="scrolled_window">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="hscrollbar_policy">never</property>
+            <property name="shadow_type">in</property>
+            <child>
+              <object class="GtkTreeView" id="treeview">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="model">store</property>
+                <property name="headers_visible">False</property>
+                <property name="headers_clickable">False</property>
+                <child internal-child="selection">
+                  <object class="GtkTreeSelection" id="tvselection">
+                    <property name="mode">browse</property>
+                    <signal name="changed" handler="lwc_application_show_plugin" swapped="no"/>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkTreeViewColumn" id="tvcolumn">
+                    <property name="title">column</property>
+                    <child>
+                      <object class="GtkCellRendererPixbuf" id="plugin_cell_icon">
+                        <property name="xpad">6</property>
+                      </object>
+                      <attributes>
+                        <attribute name="visible">3</attribute>
+                        <attribute name="pixbuf">1</attribute>
+                      </attributes>
+                    </child>
+                    <child>
+                      <object class="GtkCellRendererText" id="plugin_cell_name">
+                        <property name="xpad">6</property>
+                      </object>
+                      <attributes>
+                        <attribute name="visible">3</attribute>
+                        <attribute name="markup">2</attribute>
+                      </attributes>
+                    </child>
+                    <child>
+                      <object class="GtkCellRendererToggle" id="plugin_cell_radio">
+                        <property name="xpad">12</property>
+                        <property name="xalign">1</property>
+                        <property name="radio">True</property>
+                        <signal name="toggled" handler="lwc_application_activate_plugin" swapped="no"/>
+                      </object>
+                      <attributes>
+                        <attribute name="visible">4</attribute>
+                      </attributes>
+                    </child>
+                    <child>
+                      <object class="GtkCellRendererText" id="plugin_cell_header">
+                        <property name="xpad">6</property>
+                        <property name="ypad">6</property>
+                      </object>
+                      <attributes>
+                        <attribute name="visible">6</attribute>
+                        <attribute name="markup">5</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="resize">False</property>
+            <property name="shrink">True</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkGrid" id="grid">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <!--property name="margin_start">12</property-->
+            <property name="column_spacing">6</property>
+            <child>
+              <object class="GtkImage" id="plugin_icon">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+                <property name="height">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="plugin_name">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">end</property>
+                <property name="hexpand">True</property>
+                <property name="label">Name</property>
+                <attributes>
+                  <attribute name="weight" value="bold"/>
+                  <attribute name="scale" value="2"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="plugin_info">
+                <property name="label" translatable="yes">Info</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <signal name="clicked" handler="lwc_application_show_plugin_info" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="plugin_desc">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">start</property>
+                <property name="hexpand">True</property>
+                <property name="label">Description</property>
+                <property name="wrap">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">1</property>
+                <property name="width">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="plugin_err">
+                <property name="height_request">40</property>
+                <property name="can_focus">False</property>
+                <property name="no_show_all">True</property>
+                <property name="label" translatable="yes">This plugin doesn't support this livewallpaper version.</property>
+                <attributes>
+                  <attribute name="font-desc" value="&lt;Enter Value&gt; 10"/>
+                  <attribute name="weight" value="bold"/>
+                </attributes>
+                <style>
+                  <class name="info"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">2</property>
+                <property name="width">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="swStackSwitcher">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="vscrollbar_policy">never</property>
+                <child>
+                  <object class="GtkViewport" id="vpStackSwitcher">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkStackSwitcher" id="stackSwitcher">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">3</property>
+                <property name="width">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="swStack">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">4</property>
+                <property name="width">3</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="resize">True</property>
+            <property name="shrink">True</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="title">LiveWallpaper Preferences</property>
+        <property name="show_close_button">True</property>
+        <child>
+          <object class="GtkSwitch" id="lw_switch">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="no_show_all">True</property>
+            <property name="tooltip_text" translatable="yes">Show or hide the live wallpaper. This will start LiveWallpaper if it is not already running.</property>
+            <signal name="notify::active" handler="lwc_application_lw_switch_active" swapped="no"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="opacity_box">
+            <property name="width_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="tooltip_text" translatable="yes">Opacity of this window</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkScale" id="opacity_scale">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="adjustment">opacity_adjustement</property>
+                <property name="round_digits">2</property>
+                <property name="digits">2</property>
+                <property name="value_pos">right</property>
+                <signal name="value-changed" handler="lwc_application_opacity_changed" object="window" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Opacity</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkSearchEntry" id="search">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="tooltip_text" translatable="yes">Filter the keys by searching through their label, tooltip and values</property>
+            <property name="primary_icon_name">edit-find-symbolic</property>
+            <property name="primary_icon_activatable">False</property>
+            <property name="primary_icon_sensitive">False</property>
+            <property name="placeholder_text" translatable="yes">Search...</property>
+            <property name="input_hints">GTK_INPUT_HINT_LOWERCASE | GTK_INPUT_HINT_NONE</property>
+            <signal name="search-changed" handler="lwc_application_search" swapped="no"/>
+            <accelerator key="f" signal="grab-focus" modifiers="GDK_CONTROL_MASK"/>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

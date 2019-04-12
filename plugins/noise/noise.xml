@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema id="net.launchpad.livewallpaper.plugins.noise" path="/net/launchpad/livewallpaper/plugins/noise/">
+		<lw:tab name="Particle Settings">
+			<key type="i" name="particle-count">
+				<range min="0" max="300" />
+				<default>40</default>
+				<summary>Number of particles</summary>
+				<description>Number of particles</description>
+			</key>
+			<key type="(dd)" name="particle-size">
+				<lw:range min="1" max="200" />
+				<lw:digits>0</lw:digits>
+				<lw:type>range</lw:type>
+				<default>(10,50)</default>
+				<summary>Particle Size</summary>
+				<description>Size of a particle</description>
+			</key>
+			<key type="i" name="fade-time">
+				<range min="0" max="5000" />
+				<lw:increment>500</lw:increment>
+				<default>1000</default>
+				<summary>Fade time</summary>
+				<description>The time a particle needs to appear or disappear</description>
+			</key>
+			<key type="(dd)" name="lifetime">
+				<lw:range min="5" max="200" />
+				<lw:digits>0</lw:digits>
+				<lw:type>range</lw:type>
+				<default>(30,80)</default>
+				<summary>Lifetime</summary>
+				<description>Lifetime of a particle in seconds</description>
+			</key>
+		</lw:tab>
+	</schema>
+</schemalist>

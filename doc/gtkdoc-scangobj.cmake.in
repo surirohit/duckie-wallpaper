@@ -1,0 +1,12 @@
+set(ENV{CFLAGS} "-I@CMAKE_SOURCE_DIR@/include @DEPS_CFLAGS_STR@")
+set(ENV{LDFLAGS} "-L@CMAKE_BINARY_DIR@/livewallpaper-core -llivewallpaper-core @DEPS_LDFLAGS_STR@")
+set(ENV{LD_LIBRARY_PATH} "@CMAKE_BINARY_DIR@/livewallpaper-core")
+execute_process(
+	COMMAND @GTKDOC_SCANGOBJ_EXECUTABLE@ --module=@LW_DOC_MODULE_NAME@
+	RESULT_VARIABLE SCANGOBJ_RESULT
+)
+
+if(SCANGOBJ_RESULT)
+	message(FATAL_ERROR "Error while running gtkdoc-scangobj")
+endif(SCANGOBJ_RESULT)
+

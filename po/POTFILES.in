@@ -1,0 +1,32 @@
+[type: gettext/gsettings] data/livewallpaper.xml
+[type: gettext/gsettings] plugins/circles/circles.xml.in
+[type: gettext/gsettings] plugins/galaxy/galaxy.xml
+[type: gettext/gsettings] plugins/nexus/nexus.xml
+[type: gettext/gsettings] plugins/noise/noise.xml
+[type: gettext/gsettings] plugins/photoslide/photoslide.xml
+
+data/livewallpaper.desktop.in
+data/livewallpaper-autostart.desktop.in
+data/livewallpaper-config.desktop.in
+data/livewallpaper-indicator.desktop.in
+data/livewallpaper-config.appdata.xml.in
+
+src/application.c
+src/command-line.c
+src/fps-visualizer.c
+src/main.c
+
+ui/plugin.vala
+ui/config/application.vala
+ui/config/files-selector.vala
+ui/config/main.vala
+ui/config/plugin-parser.vala
+ui/config/plugin-store.vala
+ui/config/range-selector.vala
+ui/config/key.vala
+ui/config/search.vala
+[type: gettext/glade] ui/config/livewallpaper-config.ui
+
+ui/indicator/main.vala
+
+po/translations.h

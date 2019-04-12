@@ -1,0 +1,872 @@
+# Turkish translation for livewallpaper
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the livewallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: livewallpaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2015-07-25 08:11+0000\n"
+"Last-Translator: Mutlu Can YILMAZ <mtlcnylmz@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr "%d FPS"
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr "<b>Duvar Kağıtları</b>"
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr "Geçişli dairelerden oluşan bir saat"
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr "Bir resimler dizisi"
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr "Ubuntu phone OS'ten ilhan alınmış canlı duvar kağıdı"
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr "Binlerce yıldızlardan oluşan dönen bir galaksi"
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "Eklentiyi etkinleştir"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr "Ekle"
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr "Yeni öge ekle"
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "Animasyonlu duvar kağıtları"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "Animasyon Ayarları"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr "Animasyon süresi (ms)"
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "Görünüş"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "Kendiliğinden Başlat"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr "Güçte kendiliğinden başlat"
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr "Bataryadayken kendiliğinden dur"
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "Arkaplan"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "Arkaplan Resmi"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "Ortalanmış"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr "Eklentinin arkaplan resmini seç"
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "Renk"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "1. Renk"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "2. Renk"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "3. Renk"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "4. Renk"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr "Renk Ayarları"
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "Galaksinin merkezinin içinin rengi"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr "Ana çemberin rengi"
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "Galaksinin dış kısımlarının rengi"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr "Yıldızların rengi"
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "Tarih ve saatin rengi. Bu ayrıca noktaların rengidir."
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr "Renk yarıçapı"
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr "Geçerli saniyedeki kareyi gösteren alan için kullanılan renk"
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr "Geçerli saniyedeki kareyi gösterirken kullanılan renk"
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr "Ekranın bir yanından karşı tarafına giden renkli çizgiler"
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "Renkler"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr "LiveWallpaper için yapılandırma arayüzleri"
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "Canlı duvar kağıtlarını ayarla"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "Özel resim"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "Tarih biçimi"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "Gün-Ay-Yıl"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "Gün.Ay.Yıl"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr "Öntanımlı arkaplan"
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr "CanlıDuvarKağıdı'nın başlangıçta açılıp açılmayacağını belirt"
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr "Sonraki animasyona kadarki gecikme"
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr ""
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr "Klasörler"
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr "Sürüm numarasını göster"
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "Çizgileriyle bir yıldız çiz"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "Yıldız çizgileri çiz"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr "Animasyonun süresi"
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "Özel ışık rengini etkinleştir"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr ""
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr ""
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "30 dakikada bir"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "Saatte bir"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "Dakikada bir"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr "FPS"
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "FPS sınırı"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr "FPS göstergesinin arkaplan rengi"
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr "FPS göstergesinin yazı tipi"
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr "FPS göstergesinin yazı rengi"
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr "Solma süresi"
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr "Dosyalar"
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "Doldurma"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "Yazı tipi"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "Yazı Tipi Rengi"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr "Galaksi Işığı"
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "Genel"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr "Geçiş türü"
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "Yatay renk geçişi"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "Renk hangi sıklıkla değişmeli?"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr "Canlı duvar kağıtlarını ayarlamak için belirtici aracı"
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr "Bilgi"
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "İç renk"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr "Geçişler ya da tek renk çizerken sol veya alt renk"
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr "Çizginin uzunluğu"
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr "Yaşam süresi"
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr "Saniye bazında parçacığın yaşam süresi"
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "Saniyedeki kareyi bu değere sınırlar"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "LiveWallpaper"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr "LiveWallpaper belirteci"
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "LiveWallpaper Ayarları"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "LiveWallpaper Ayarları..."
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr "Ana daire"
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr "En fazla gecikme"
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "Ay-Gün-Yıl"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "Ay.Gün.Yıl"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "Taşı, Döndür ve Yakınlaştır"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "Çoklu çıktı kipi"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "Çoklu duvar kağıdı"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr "Asla"
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr "Parçacık sayısı"
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr "Çizgi sayısı"
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "Yıldızların sayısı"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "X Konumu"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "Y Konumu"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr "Pilde"
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr "Düşük pilde"
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "Tek büyük duvar kağıdı"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr "Saydamlık"
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr "Bu pencerenin saydamlığı"
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr "Diğer daireler"
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "Dış renk"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr "Parçacık Ayarları"
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr "Parçacık Boyutu"
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "Arkaplan resmi için kullanılan yol"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr "Duraklama zamanı (ms)"
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "Resim Ayarları"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr "Resim klasörü"
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr "Güç Yönetimi"
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "Birincil Renk"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr "Çizgi uzunluğu"
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr "Çizgi boyutu"
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr "Renk geçişinin dairesel yarıçapı"
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "Seçilen ögeyi kaldır"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr ""
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr ""
+"Sıkıcı öntanımlı duvarkağıdınızı tamamen OpenGL ile hareketlendirilmiş duvar "
+"kağıdı ile değiştirin."
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "Anahtarı sıfırla"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+"Dizüstü artık bataryada değilse canlı duvar kağıdını tekrar başlat. Bu "
+"sadece LiveWallpaper (düşük) bataryadan dolayı kendiliğinden durmuşsa "
+"çalışır."
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr "Geçişler çizerken sağ ya da üst renk, tek renk için kullanılmaz"
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "X Ekseninde Çevir"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "Y Ekseninde Çevir"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "Z Ekseninde Çevir"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr "Dönme hızı"
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr "Bütün galaksideki her saatteki dönüşümünün dönme hızı"
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr "Satırlar"
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "Ölçekle"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr "Resimleri bu klasörlerde ara"
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr "Ara..."
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "İkincil Renk"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr "Dizin seç"
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr "Dosya seç"
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr ""
+"Çoklu çıktı cihazları kullanılırsa canlı duvar kağıdının nasıl "
+"gösterileceğini seçer"
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+"Dizüstü bataryada veya düşük bataryadayken kendiliğinden durdurulup "
+"durdurulmayacağını seçer. Bu LiveWallpaper'ın  başlangıçta kendiliğinden "
+"başlamasını engelleyebilir."
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "Canlı duvar kağıdının görünüp görünmeyeceğini ayarla"
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr "FPS Göster"
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr "Masaüstü simgelerini göste (sadece Nautilus)"
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "Canlı duvar kağıdını göster veya gizle"
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr ""
+"Canlı duvar kağıdını göster veya gizle. Bu LiveWallpaper zaten çalışmıyorsa "
+"başlar."
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr "Geçerli saniyedeki kareyi göster"
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "Tek renk"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "Boyut"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr "Parçacığın boyutu"
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr "Çizginin boyutu"
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "Yıldızın boyutu"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr "Ana çemberin boyutu"
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr "Yavaşça hareket eden baloncuklar"
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr "Yıldızlar için hız etkeni"
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr "Hız oranı"
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr "Yıldız rengi"
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "Yıldız boyutu"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+"İlki tercih seçeneklerinin tamamıdır. Bununla, LiveWallpaper'ın yanısıra "
+"yüklü eklentileri de yönetebilirsiniz, her ikisini de teknik bilgi olmadan."
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+"Çemberler için mümkün renklerin listesi olarak bu resmin ilk sırası "
+"kullanılacak. Hangi rengin seçileceği güncelleme aralığına ve resmin "
+"genişliğine bağlıdır. Bu yüzden her renk kullanılmayacaktır."
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "Tarih ve saat için kullanılan yazı tipi"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr "Geçerli saniyedeki kare gösterilirken kullanılan yazı tipi"
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr "Etkin duvar kağıdının adı"
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr "Her yatay sıradaki resimlerin sayısı"
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr "Her dikey sıradaki resimlerin sayısı"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+"İkincisi LiveWallpaper'ı başlatmanıza veya durdurmanıza olanak sağlayan, "
+"paneliniz için bir araçtır, etkin eklentiyi seçmek ve menüye uğramadan "
+"tercihler penceresini çabucak açmak için."
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr "Parçacığın görünmesi ve kaybolması için gereken zaman"
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr ""
+"Bu paket LiveWallpaper'ınızı yapılandırmaya izin veren iki arayüz sunar."
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr "Bu eklenti, bu livewallpaper sürümünü desteklemiyor."
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "Döşeme"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr "Zaman ve tarih biçimi"
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr "Bir renkten diğerine geçerkenki zaman milisaniye olarak"
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "Şeffaflık"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr "Ana çemberin şeffaflığı"
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "Güncelleme aralığı"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "24 saat kullan"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr ""
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "Dikey renk geçişi"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr "Galaksinin merkezinin x konumu"
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr ""
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "Yıl-Ay-Gün"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "Yıl.Ay.Gün"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "Yaklaştır"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "Yakınlaş ve uzaklaş"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr "eşmerkezli daireler"
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr ""
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr "dairesel"
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr "sarmal"
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr "kare"
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr ""
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Mutlu Can YILMAZ https://launchpad.net/~mtlcnylmz"

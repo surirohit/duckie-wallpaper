@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="net.launchpad.livewallpaper.plugins.duckiegalaxy" path="/net/launchpad/livewallpaper/plugins/duckiegalaxy/">
+        <lw:tab name="Particle Settings">
+            <key type="i" name="star-count">
+                <range min="0" max="500000" />
+                <lw:increment>500</lw:increment>
+                <default>12500</default>
+                <summary>Number of stars</summary>
+                <description>Number of stars</description>
+            </key>
+            <key type="i" name="star-size">
+                <range min="1" max="16" />
+                <lw:scale />
+                <default>8</default>
+                <summary>Star size</summary>
+                <description>Size of a star</description>
+            </key>
+            <key type="d" name="speed-ratio">
+                <range min="-5" max="5" />
+                <lw:scale />
+                <default>1</default>
+                <summary>Speed ratio</summary>
+                <description>Speed factor of the stars</description>
+                <lw:digits>2</lw:digits>
+            </key>
+            <key type="b" name="draw-streaks">
+                <default>true</default>
+                <summary>Draw star streaks</summary>
+                <description>Draw a star with streaks</description>
+            </key>
+        </lw:tab>
+        <lw:tab name="Colors">
+            <key type="s" name="star-color">
+                <lw:type>color</lw:type>
+                <default>"rgba (255, 244, 234, 200)"</default>
+                <summary>Star color</summary>
+                <description>Color of the stars</description>
+            </key>
+            <lw:frame name="Galaxy Light">
+                <key type="b" name="use-custom-light">
+                    <default>false</default>
+                    <summary>Enable custom light color</summary>
+                    <description>Enable custom light color</description>
+                </key>
+                <key type="s" name="outer-color">
+                    <lw:type>color</lw:type>
+                    <default>"rgba (34, 13, 61, 255)"</default>
+                    <summary>Outer color</summary>
+                    <description>Color of the outer parts of the galaxy</description>
+                </key>
+                <key type="s" name="inner-color">
+                    <lw:type>color</lw:type>
+                    <default>"rgba (80, 37, 52, 255)"</default>
+                    <summary>Inner color</summary>
+                    <description>Color in the centre of the galaxy</description>
+                </key>
+                <key type="d" name="color-radius">
+                    <range min="0.0" max="2.0" />
+                    <lw:digits>2</lw:digits>
+                    <lw:scale />
+                    <default>1.0</default>
+                    <summary>Color radius</summary>
+                    <description>Radius of the radial color gradient</description>
+                </key>
+            </lw:frame>
+        </lw:tab>
+        <lw:tab name="Move, Rotate and Zoom">
+            <key type="d" name="zoom">
+                <range min="0.0" max="5.0" />
+                <lw:digits>2</lw:digits>
+                <lw:scale />
+                <default>1.5</default>
+                <summary>Zoom</summary>
+                <description>Zoom in and out</description>
+            </key>
+            <lw:expander name="Rotations" expanded="true">
+                <key type="d" name="rotational-speed">
+                    <range min="0.0" max="60.0" />
+                    <lw:digits>1</lw:digits>
+                    <lw:scale />
+                    <default>1.0</default>
+                    <summary>Rotational speed</summary>
+                    <description>Rotational speed of the whole galaxy in revolutions per hour</description>
+                </key>
+                <lw:separator/>
+                <key type="i" name="rotate-x">
+                    <range min="-90" max="90" />
+                    <lw:wrap />
+                    <default>-60</default>
+                    <summary>Rotate X</summary>
+                    <description>Rotate the galaxy through X coordinate</description>
+                </key>
+                <key type="i" name="rotate-y">
+                    <range min="-90" max="90" />
+                    <lw:wrap />
+                    <default>15</default>
+                    <summary>Rotate Y</summary>
+                    <description>Rotate the galaxy through Y coordinate</description>
+                </key>
+                <key type="i" name="rotate-z">
+                    <range min="0" max="360" />
+                    <lw:wrap />
+                    <default>0</default>
+                    <summary>Rotate Z</summary>
+                    <description>Rotate the galaxy through Z coordinate</description>
+                </key>
+            </lw:expander>
+            <lw:expander name="Offsets" expanded="true">
+                <key type="d" name="offset-x">
+                    <range min="-2.0" max="2.0" />
+                    <lw:digits>2</lw:digits>
+                    <lw:scale />
+                    <default>0.0</default>
+                    <summary>Offset X</summary>
+                    <description>X offset of the centre of the galaxy</description>
+                </key>
+                <key type="d" name="offset-y">
+                    <range min="-2.0" max="2.0" />
+                    <lw:digits>2</lw:digits>
+                    <lw:scale vertical="" inverted="" />
+                    <default>0.0</default>
+                    <summary>Offset Y</summary>
+                    <description>Y offset of the centre of the galaxy</description>
+                </key>
+            </lw:expander>
+        </lw:tab>
+    </schema>
+</schemalist>

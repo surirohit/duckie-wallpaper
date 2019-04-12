@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/net/launchpad/livewallpaper/plugins/noise/">
+    <file>images/background.png</file>
+    <file>images/particle.png</file>
+    <file compressed="true">shader/frag.glsl</file>
+    <file compressed="true">shader/vert.glsl</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema id="net.launchpad.livewallpaper.plugins.gradclock" path="/net/launchpad/livewallpaper/plugins/gradclock/">
+		 <lw:tab name="Color Settings">
+			<key type="s" name="color-sec">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (0, 255, 0, 0.5)"</default>
+				<summary>Second color</summary>
+				<description>Color of the second circle</description>
+			</key>
+			<key type="s" name="color-min">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (255, 0, 0, 0.5)"</default>
+				<summary>Minute color</summary>
+				<description>Color of the minute circle</description>
+			</key>
+			<key type="s" name="color-hour">
+				 <lw:type>color</lw:type> 
+				<default>"rgba (0, 0, 255, 0.5)"</default>
+				<summary>Hour color</summary>
+				<description>Color of the hour circle</description>
+			</key>
+		</lw:tab>
+		<lw:tab name="Animation Settings">
+			<key type="d" name="start-smoothness">
+				<range min="0.0" max="1.0" />
+                <lw:scale />
+                <lw:digits>2</lw:digits> 
+				<default>0.5</default>
+				<summary>Start smoothness</summary>
+				<description>Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)</description>
+			</key>
+			<key type="d" name="end-smoothness">
+				<range min="0.0" max="1.0" />
+                <lw:digits>2</lw:digits>
+                <lw:scale />
+				<default>0.5</default>
+				<summary>End smoothness</summary>
+				<description>Smoothness at the end of the animation (0.0: linear, 1.0: slow)</description>
+			</key>
+		</lw:tab>
+	</schema>
+</schemalist>

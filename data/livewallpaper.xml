@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<enum id="net.launchpad.livewallpaper.multioutput-mode">
+		<value nick="One big wallpaper"    value="0" />
+		<value nick="Multiple wallpapers"  value="1" />
+	</enum>
+
+	<enum id="net.launchpad.livewallpaper.bg-mode">
+		<value nick="Default background"         value="0" />
+		<value nick="Custom image"               value="1" />
+		<value nick="Single color"               value="2" />
+		<value nick="Horizontal color gradient"  value="3" />
+		<value nick="Vertical color gradient"    value="4" />
+	</enum>
+
+	<enum id="net.launchpad.livewallpaper.bg-render-type">
+		<value nick="Zoom"      value="0" />
+		<value nick="Center"    value="1" />
+		<value nick="Scale"     value="2" />
+		<value nick="Fill"      value="3" />
+		<value nick="Tile"      value="4" />
+	</enum>
+
+	<enum id="net.launchpad.livewallpaper.pm-mode">
+        <value nick="Never"  		 value="0" />
+		<value nick="On low battery" value="1" />
+		<value nick="On battery"     value="2" />
+	</enum>
+
+	<schema id="net.launchpad.livewallpaper" path="/net/launchpad/livewallpaper/">
+		<key type="b" name="active">
+			<default>true</default>
+			<summary>Show or hide the live wallpaper</summary>
+			<description>Set whether the live wallpaper is visible or not</description>
+		</key>
+		<key type="s" name="active-plugin">
+			<default>"galaxy"</default>
+			<summary>Active plugin</summary>
+			<description>The name of the active wallpaper plugin</description>
+		</key>
+
+		<lw:tab name="General">
+			<key type="b" name="autostart">
+				<default>true</default>
+				<summary>Autostart</summary>
+				<description>Define whether LiveWallpaper should autostart at startup</description>
+			</key>
+			<key type="b" name="desktop-icons">
+				<default>false</default>
+				<summary>Show desktop icons (Nautilus only)</summary>
+				<description>Set this to true, if you want to see the desktop icons with Nautilus when a live wallpaper is running.</description>
+			</key>
+			<key name="multioutput-mode" enum="net.launchpad.livewallpaper.multioutput-mode">
+				<default>"One big wallpaper"</default>
+				<summary>Multioutput Mode</summary>
+				<description>Selects how the live wallpaper is displayed if multiple output devices are used</description>
+			</key>
+            <lw:frame name="Power Management">
+                <lw:DisplayIf computer="Laptop" />
+                <key name="pm-mode" enum="net.launchpad.livewallpaper.pm-mode">
+                    <default>"Never"</default>
+                    <summary>Autostop on battery</summary>
+                    <description>Selects whether the live wallpaper should automatically stop when the laptop runs on battery or on low battery. This may prevent LiveWallpaper from starting at startup.</description>
+                </key>
+                <key type="b" name="pm-restart">
+                    <default>true</default>
+                    <summary>Autostart on power</summary>
+                    <description>Restart the live wallpaper if the laptop is not on battery anymore. This only works, if LiveWallpaper stopped automatically because it is on (low) battery.</description>
+                </key>
+            </lw:frame>
+		</lw:tab>
+		<lw:tab name="Background">
+			<key name="bg-mode" enum="net.launchpad.livewallpaper.bg-mode">
+				<default>"Default background"</default>
+				<summary>Background</summary>
+				<description>Choose the plugin's background image</description>
+			</key>
+
+			<lw:separator/>
+			<key type="s" name="bg-image">
+				<lw:type>file</lw:type>
+                <lw:filefilter name="Image" pixbuf="true"></lw:filefilter>
+				<default>""</default>
+				<summary>Background Image</summary>
+				<description>Path to use for the background image</description>
+			</key>
+			<key name="bg-render-type" enum="net.launchpad.livewallpaper.bg-render-type">
+				<default>"Zoom"</default>
+				<summary>Render Type</summary>
+				<description>Determines how the background image is rendered</description>
+			</key>
+
+			<lw:separator/>
+			<key type="s" name="bg-primary-color">
+				<lw:type>color</lw:type>
+				<default>"rgba (255, 255, 0, 255)"</default>
+				<summary>Primary Color</summary>
+				<description>Left or bottom color when drawing gradients, or the solid color</description>
+			</key>
+			<key type="s" name="bg-secondary-color">
+				<lw:type>color</lw:type>
+				<default>"rgba (255, 0, 0, 255)"</default>
+				<summary>Secondary Color</summary>
+				<description>Right or top color when drawing gradients, not used for solid color</description>
+			</key>
+		</lw:tab>
+        <lw:tab name="FPS">
+            <key type="u" name="fps-limit">
+				<range min="0" max="120" />
+				<default>30</default>
+				<summary>FPS Limit</summary>
+				<description>Limit the frames per second to this value</description>
+			</key>
+            <lw:separator/>
+			<key type="b" name="show-fps">
+				<default>false</default>
+				<summary>Show FPS</summary>
+				<description>Show the current frames per second</description>
+			</key>
+            <key type="s" name="fps-font">
+				<lw:type>font</lw:type>
+				<default>"Sans 20"</default>
+				<summary>FPS visualizer's font</summary>
+				<description>The font used to display the current frames per second</description>
+			</key>
+            <key type="s" name="fps-fg-color">
+				<lw:type>color</lw:type>
+				<default>"rgba (255, 255, 255, 255)"</default>
+				<summary>FPS visualizer's font color</summary>
+				<description>Color used to display the current frames per second</description>
+			</key>
+            <key type="s" name="fps-bg-color">
+				<lw:type>color</lw:type>
+				<default>"rgba (0, 0, 0, 255)"</default>
+				<summary>FPS visualizer's background color</summary>
+				<description>Color used as background for the area which shows the current frames per second</description>
+			</key>
+        </lw:tab>
+	</schema>
+</schemalist>

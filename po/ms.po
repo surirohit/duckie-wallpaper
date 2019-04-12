@@ -1,0 +1,953 @@
+# Malay translation for livewallpaper
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the livewallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: livewallpaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2014-01-25 17:24+0000\n"
+"Last-Translator: Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr ""
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr ""
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr "Merupakan satu grid gambar"
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr "Merupakan kertas dinding langsung yang diilham dari OS telefon Ubuntu"
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr "Bima sakti yang berputar dengan beribu-ribu bintang"
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "Pemalam aktif"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr ""
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr "Tambah item baru"
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "Kertas dinding beranimasi"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "Tetapan Animasi"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr "Masa animasi (ms)"
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "Mula-sendiri"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "Latar Belakang"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "Imej Latar Belakang:"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr ""
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "Ditengahkan"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr "Pilih imej latar belakang pemalam"
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "Warna"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "Warna 1"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "Warna 2"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "Warna 3"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "Warna 4"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "Warna di dalam pusat bima sakti"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr "Warna bulatan utama"
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "Warna bagi bahagian luar bima sakti"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "Warna bagi masa dan tarikh. Ia juga warna bagi titik."
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr "Jejar warna"
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr ""
+"Denyar berwarna-warni yang bergerak dari satu sisi skrin kearah sisi yang "
+"bertentangan"
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "Warna"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr "Lajur"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr ""
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "Konfigur kertas dinding langsung"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "Imej suai"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "Format tarikh"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "Hari-Bulan-Tahun"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "Hari.Bulan.Tahun"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr "Latar belakang lalai"
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr ""
+"Takrifkan sama ada LiveWallpaper seharusnya dimulakan-sendiri semasa "
+"permulaan"
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr "Lengahan sehingga animasi berikutnya"
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr "Tentukan bagaimana imej latar belakang diterap"
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr ""
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "Lukis bintang dengan jalurannya"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "Lukis jaluran bintang"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr "Jangkamasa animasi"
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "Benarkan warna cahaya suai"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr "Akhir kelicinan"
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr "Setiap 10 minit"
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "Setiap 30 minit"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "Setiap jam"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "Setiap minit"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "Had FPS"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr "Masa lenyap"
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr ""
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "Isi"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "Fon"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "Warna Fon"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr "Cahaya Bima Sakti"
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "Am"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr "Jenis kilauan"
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "Gradien warna melintang"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "Berapa kerapkan warna patut berubah?"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr "Aplet penunjuk untuk tetapkan kertas dinding langsung"
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "Warna dalaman"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr "Warna kiri atau bawah bila melukis grafien, atau warna tegar"
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr "Panjang bagi denyut"
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr "Hayat"
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr "Hayat zarah dalam saat"
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "Hadkan bingkai per saat untuk nilai ini"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "LiveWallpaper"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr "Penunjuk LiveWallpaper"
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "Keutamaan LiveWallpaper"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "Tetapan LiveWallpaper..."
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr "Bulatan utama"
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr "Lengahan maksimum"
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "Bulan-Hari-Tahun"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "Bulan.Hari.Tahun"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "Alih, Putar dan Zum"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "Mod Output Berbilang"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "Kertas dinding berbilang"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr "Bilangan zarah"
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr "Bilangan denyar"
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "Bilangan bintang"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "Ofset X"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "Ofset Y"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr ""
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr ""
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "Kertas dinding besar"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr ""
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr "Bulatan lain"
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "Warna luar"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr "Tetapan Zarah"
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr "Saiz Zarah"
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "Laluan yang digunakan untuk imej latar belakang"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr "Masa jeda (ms)"
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "Tetapan Gambar"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr "Folder gambar"
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "Warna Utama"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr "Warna denyar"
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr "Panjang denyut"
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr "saiz denyar"
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr "Jejari bagi gradien warna jejarian"
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "Buang item terpilih"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr "Jenis Terapan"
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr ""
+"Gantikan kertas dinding lalai yang membosankan dengan kertas dinding OpenGl "
+"yang beranimasi."
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "Tetap semula kekunci ke nilai lalai"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr ""
+"Warna kanan atau atas bila melukis gradien, tidak digunakan untuk warna tegar"
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "Putar X"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "Putar Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "Putar Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr "Putar bima sakti menerusi koordinat X"
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr "Putar bima sakti menerusi koordinat Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr "Putar bima sakti menerusi koordinat Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr "Baris"
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "Skala"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr "Gelintar gambar di dalam folder ini"
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "Warna Sekunder"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr "Pilih direktori"
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr ""
+"Pilih bagaimana kertas dinding langsung dipaparkan jika peranti berbilang "
+"digunakan"
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "Tetapkan sama ada kertas dinding langsung kelihatan atau tidak"
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "Papar atau sembunyi kertas dinding langsung"
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr ""
+"Papar atau sembunyikan kertas dinding langsung. Ia akan mulakan "
+"LiveWallpaper jika ia belum lagi berjalan."
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "Warna tunggal"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "Saiz"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr "Saiz bagi zarah"
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr "Saiz denyar"
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "Saiz bintang"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr "Saiz bulatan utama"
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr "Bebuih yang bergerak secara perlahan-lahan"
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr "Kelicinan pada permulaan animasi (0.0: linear, 1.0: perlahan)"
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr "Kelicinan pada penghujung animasi (0.0: linear, 1.0: perlahan)"
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "Saiz bintang"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr "Mula kelicinan"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+"Baris pertama imej ini akan digunakan sebagai senarai warna yang mungkin "
+"untuk bulatan. Warna yang dipilih bergantung pada nilai kemaskini sela dan "
+"lebar imej, oleh itu bukan semua warna akan digunakan."
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "Fon yang digunakan untuk masa dan tarikh"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr "Nama bagi pemalam kertas dinding aktif"
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr "Bilangan gambar bagi setiap bari melintang"
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr "Bilangan gambar bagi setiap garis menegak"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr "Bentuk kilauan"
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr "Masa yang diperlukan sesebuah zarah muncul atau lenyap"
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr ""
+"Ini merupakan masa maksimum denyar perlu muncul semula pada skrin dalam "
+"milisaat."
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr ""
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "Berjubin"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "Kelutsinaran"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr "Kelutsinaran bulatan utama"
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "Selan kemaskini"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "Guna jam 24 jam"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr "Guna warna denyar rawak"
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr "Guna warna denyar rawak selain dari empat warna terpilih"
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "Gradien warna menegak"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr "Ofset x bagi pusat bima sakti"
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr "Ofset Y bagi pusat bima sakti"
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "Tahun-Bulan-Hari"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "Tahun.Bulan.Hari"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "Zum"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "Zum masuk dan keluar"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr "bulatan sepusat"
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr "dari"
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr "jejarian"
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr "berpilin"
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr "petak"
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr "sehingga"
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Maximilian Schnarr https://launchpad.net/~fyrmir\n"
+"  abuyop https://launchpad.net/~abuyop"
+
+#~ msgid "Cannot find settings for this plugin."
+#~ msgstr "Tidak dapat cari tetapan untuk pemalam ini."
+
+#~ msgid "Define whether the livewallpaper should autostart at startup"
+#~ msgstr ""
+#~ "Takrif sama ada livewallpaper seharusnya mula-sendiri semasa permulaan"
+
+#~ msgid "Define which plugin is currently enabled."
+#~ msgstr "Takrif pemalam yang manakah kini dibenarkan."
+
+#~ msgid "Folders"
+#~ msgstr "Folder"
+
+#~ msgid "How to shade the background color"
+#~ msgstr "Bagaimana hendak lorek warna latar belakang"
+
+#~ msgid "Livewallpaper"
+#~ msgstr "Kertas Dinding Langsung"
+
+#~ msgid "Max length"
+#~ msgstr "Panjang maksimum"
+
+#~ msgid "Max length of a pulse"
+#~ msgstr "Panjang maksimum denyar"
+
+#~ msgid "Min length"
+#~ msgstr "Panjang minimum"
+
+#~ msgid "Min length of a pulse"
+#~ msgstr "Panjang minimum denyar"
+
+#~ msgid "Move the window behind all other desktop windows"
+#~ msgstr "Alih tetingkap disebalik semua tetingkap dekstop lain"
+
+#~ msgid "Pictures"
+#~ msgstr "Gambar"
+
+#~ msgid "Select a picture"
+#~ msgstr "Pilih gambar"
+
+#~ msgid ""
+#~ "Selects how the livewallpaper is displayed if multiple output devices are "
+#~ "used"
+#~ msgstr ""
+#~ "Pilih bagaimana livewallpaper dipaparkan jika peranti output berbilang "
+#~ "telah digunakan"
+
+#~ msgid "Set whether the livewallpaper is running or not"
+#~ msgstr "Tetapkan sama ada livewallpaper berjalan ataupun tidak"
+
+#~ msgid "Shading Type"
+#~ msgstr "Jenis Pelorekan"
+
+#~ msgid "Show FPS in the lower right corner"
+#~ msgstr "Papar FPS pada bucu kanan bawah"
+
+#~ msgid ""
+#~ "Show or hide the live wallpaper. This will start the livewallpaper "
+#~ "application if it is not already running."
+#~ msgstr ""
+#~ "Papar atau sembunyi kertas dinding langsung. Ia akan mulakan aplikasi "
+#~ "livewallpaper jika ia belum lagi berjalan."
+
+#~ msgid "Start LiveWallpaper if autostart is enabled"
+#~ msgstr "Mulakan LiveWallpaper jika mula-sendiri dibenarkan"
+
+#~ msgid "Start or stop the livewallpaper"
+#~ msgstr "Mula atau hentikan livewallpaper"
+
+#~ msgid "The name of the active livewallpaper plugin"
+#~ msgstr "Nama bagi pemalam livewallpaper aktif"
+
+#~ msgid "Time to switch from one color to another color"
+#~ msgstr "Masa untuk tukar dari satu warna ke warna yang lain"
+
+#~ msgid "Use Custom Background"
+#~ msgstr "Guna Latar Belakang Suai"
+
+#~ msgid "Use custom background or the default background of the active plugin"
+#~ msgstr ""
+#~ "Guna latar belakang suai atau latar belakang lalai bagi pemalam aktif"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Kertas Dinding"

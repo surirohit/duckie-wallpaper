@@ -1,0 +1,140 @@
+Source: livewallpaper
+Section: misc
+Priority: optional
+Maintainer: Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>
+Build-Depends: debhelper (>= 8),
+               cmake (>= 2.8),
+               valac,
+               gtk-doc-tools,
+               libglib2.0-dev,
+               libgirepository1.0-dev,
+               gobject-introspection,
+               sed,
+               libgtk-3-dev,
+               libpeas-dev,
+               libglew1.6-dev,
+               libappindicator3-dev,
+               libupower-glib-dev,
+               xcftools
+Build-Depends-Indep: libglib2.0-doc,
+                     libgtk-3-doc,
+                     libgdk-pixbuf2.0-doc,
+                     libpeas-doc,
+                     libcairo2-doc
+Standards-Version: 3.9.3.1
+Homepage: https://launchpad.net/livewallpaper
+
+
+Package: livewallpaper
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libglib2.0-bin,
+         gir1.2-peas-1.0,
+         gir1.2-gdkpixbuf-2.0,
+         python-gi-cairo,
+         python-imaging,
+         python-opengl
+Suggests: livewallpaper-config,
+          livewallpaper-indicator
+Description: Animated OpenGL wallpapers
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains LiveWallpaper and the following live wallpaper plugins:
+   - Galaxy
+   - Nexus
+   - Noise
+   - Photoslide
+   - Circles
+   - Gradient clock
+
+Package: livewallpaper-dbg
+Section: devel
+Architecture: any
+Depends: livewallpaper (= ${Source-Version})
+Description: Debug symbols for LiveWallpaper
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains the debug symbols for LiveWallpaper.
+
+
+Package: livewallpaper-config
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         livewallpaper
+Description: Configurator for LiveWallpaper
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains a configurator for LiveWallpaper.
+
+Package: livewallpaper-config-dbg
+Section: devel
+Architecture: any
+Depends: livewallpaper-config (= ${Source-Version})
+Description: Debug symbols for the LiveWallpaper configurator
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains the debug symbols for the LiveWallpaper configurator.
+
+
+Package: livewallpaper-indicator
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         livewallpaper
+Description: Indicator for LiveWallpaper
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains a indicator for LiveWallpaper.
+
+Package: livewallpaper-indicator-dbg
+Section: devel
+Architecture: any
+Depends: livewallpaper-indicator (= ${Source-Version})
+Description: Debug symbols for the LiveWallpaper indicator
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains the debug symbols for the LiveWallpaper indicator.
+
+
+Package: livewallpaper-dev
+Section: devel
+Architecture: all
+Depends: ${misc:Depends},
+         libglib2.0-dev,
+         libgtk-3-dev,
+         libpeas-dev,
+         libglew1.6-dev,
+         livewallpaper,
+         sed
+Suggests: livewallpaper-doc
+Description: Development files for creating own LiveWallpaper plugins
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package is needed to create own LiveWallpaper plugins.
+
+Package: livewallpaper-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: libglib2.0-doc,
+            libgtk-3-doc,
+            libgdk-pixbuf2.0-doc,
+            libpeas-doc,
+            libcairo2-doc
+Suggests: devhelp
+Description: Documentation files for the LiveWallpaper core library
+ LiveWallpaper is an applications which replaces your boring default wallpaper
+ with a completely animated OpenGL wallpaper.
+ .
+ This package contains the HTML documentation for the LiveWallpaper core
+ library.
+

@@ -1,0 +1,888 @@
+# Spanish translation for compiz-plugins-livewallpapers
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz-plugins-livewallpapers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz-plugins-livewallpapers\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2014-01-25 17:24+0000\n"
+"Last-Translator: Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr ""
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr ""
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr ""
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr ""
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "Complemento activo"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr ""
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr ""
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "Fondos de pantalla animados"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "Ajustes de animación"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr ""
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "Aspecto"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "Inicio automático"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "Fondo"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr ""
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "Centrar"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "Color"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "Color 1"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "Color 2"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "Color 3"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "Color 4"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "Color en el centro de la galaxia"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "Color de las partes exteriores de la galaxia"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "Color de tiempo y fecha, incluidos los puntos."
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "Colores"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr ""
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "Configurar fondos de pantalla animados"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "Imagen personalizada"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "Formato de fecha"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "Día-Mes-Año"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "Día.Mes.Año"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr "Determina cómo se renderiza la imagen de fondo"
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr ""
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "Dibujar una estrella con estelas"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "Dibujar estelas de las estrellas"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "Activar color de luz personalizado"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr ""
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr "Cada 10 minutos"
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "Cada 30 minutos"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "Cada hora"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "Cada minuto"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "Límite de FPS"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr ""
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr ""
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "Rellenar"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "Tipografía"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "Color de tipografía"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr ""
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "General"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr ""
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "Degradado de color horizontal"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "¿Cada cuánto debe cambiar el color?"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "Color interior"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "Limitar los fotogramas por segundo a este valor"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "LiveWallpaper"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr ""
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "Preferencias de LiveWallpaper"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "Ajustes de LiveWallpaper"
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr ""
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "Mes-Día-Año"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "Mes.Día.Año"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "Mover, girar y ampliar"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "Modo de multisalida"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "Fondos múltiples"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "Número de estrellas"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "Desplazamiento en X"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "Desplazamiento en Y"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr ""
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr ""
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "Un fondo grande"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr ""
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "Color exterior"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "Ruta de la imagen de fondo"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr ""
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "Ajustes de imagen"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr ""
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "Color primario"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr ""
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "Eliminar elemento seleccionado"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr "Tipo de renderizado"
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr ""
+"Reemplace su aburrido fondo de pantalla por otro completamente animado con "
+"OpenGL."
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "Restablecer la clave al valor predeterminado"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "Girar X"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "Girar Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "Girar Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr ""
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "Escalar"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "Color secundario"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr ""
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "Establecer visibilidad del fondo de pantalla animado."
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "Mostrar u ocultar el fondo de pantalla animado."
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "Color único"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "Tamaño de una estrella"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr ""
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "Tamaño de estrella"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "Tipografía de hora y fecha"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr ""
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr ""
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "Mosaico"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "Intervalo de actualización"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "Utilizar reloj digital"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr ""
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "Degradado de color vertical"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr ""
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "Año-Mes-Día"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "Año.Mes.Día"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "Ampliar"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "Acercar y alejar"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr ""
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr ""
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr ""
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr ""
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr ""
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr ""
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Adolfo Jayme https://launchpad.net/~fitojb\n"
+"  Alejandro Guillermo Ayala Suárez https://launchpad.net/~alejandro-ayala-"
+"suarez\n"
+"  Maximilian Schnarr https://launchpad.net/~fyrmir"
+
+#~ msgid "Folders"
+#~ msgstr "Carpetas"
+
+#~ msgid "How to shade the background color"
+#~ msgstr "Cómo sombrear el color de fondo"
+
+#~ msgid "Max length"
+#~ msgstr "Longitud máx"
+
+#~ msgid "Min length"
+#~ msgstr "Longitud mín"
+
+#~ msgid "Move the window behind all other desktop windows"
+#~ msgstr "Mover la ventana bajo todas las demás ventanas del escritorio"
+
+#~ msgid "Pictures"
+#~ msgstr "Imágenes"
+
+#~ msgid "Shading Type"
+#~ msgstr "Tipo de sombreado"
+
+#~ msgid "Show FPS in the lower right corner"
+#~ msgstr "Mostrar FPS en la esquina inferior derecha."
+
+#~ msgid "Use Custom Background"
+#~ msgstr "Usar fondo personalizado"
+
+#~ msgid "Use custom background or the default background of the active plugin"
+#~ msgstr ""
+#~ "Usar un fondo personalizado o el fondo predeterminado del complemento "
+#~ "activo"

@@ -1,0 +1,8 @@
+[Plugin]
+Module=nexus
+IAge=1
+Name=Nexus
+Description=Colorful pulses move from one side of the screen to the opposite side
+Authors=Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>; Aurélien RIVIERE <aurelien.riv@gmail.com>
+Copyright=Copyright © 2012-2016 Maximilian Schnarr
+License-type=gpl-3-0

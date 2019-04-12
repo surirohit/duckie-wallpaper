@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+]>
+<book id="index">
+  <bookinfo>
+    <title>LiveWallpaper Reference Manual</title>
+    <releaseinfo>
+      Reference Manual for the LiveWallpaper Core Library, version @LIVEWALLPAPER_VERSION@.
+    </releaseinfo>
+  </bookinfo>
+
+  <part>
+    <title>Tutorial</title>
+    <xi:include href="tut_livewallpaper_plugin.xml"/>
+    <xi:include href="tut_settings.xml"/>
+  </part>
+
+  <part>
+    <title>API Reference</title>
+
+    <chapter>
+      <title>Basic Classes and Interfaces</title>
+      <xi:include href="xml/wallpaper.xml"/>
+      <xi:include href="xml/output.xml"/>
+    </chapter>
+
+    <chapter>
+      <title>OpenGL Classes</title>
+      <xi:include href="xml/texture.xml"/>
+      <xi:include href="xml/cairo-texture.xml"/>
+      <xi:include href="xml/shader.xml"/>
+      <xi:include href="xml/program.xml"/>
+      <xi:include href="xml/buffer.xml"/>
+    </chapter>
+
+    <chapter>
+      <title>Math</title>
+      <xi:include href="xml/math.xml" />
+      <xi:include href="xml/random.xml"/>
+      <xi:include href="xml/noise.xml"/>
+      <!-- TODO: Vector -->
+      <xi:include href="xml/matrix.xml"/>
+    </chapter>
+
+    <chapter>
+      <title>Utilities</title>
+      <xi:include href="xml/background.xml"/>
+      <xi:include href="xml/range.xml"/>
+      <xi:include href="xml/color.xml"/>
+      <xi:include href="xml/error.xml"/>
+      <xi:include href="xml/util.xml"/>
+    </chapter>
+  </part>
+
+  <chapter id="object-tree">
+    <title>Object Hierarchy</title>
+     <xi:include href="xml/tree_index.sgml"/>
+  </chapter>
+
+  <index id="api-index-full">
+    <title>API Index</title>
+    <xi:include href="xml/api-index-full.xml"><xi:fallback /></xi:include>
+  </index>
+
+  <index id="api-index-0-5" role="0.5">
+    <title>Index of new symbols in 0.5</title>
+    <xi:include href="xml/api-index-0.5.xml"><xi:fallback /></xi:include>
+  </index>
+
+  <index id="api-index-0-4" role="0.4">
+    <title>Index of new symbols in 0.4</title>
+    <xi:include href="xml/api-index-0.4.xml"><xi:fallback /></xi:include>
+  </index>
+
+  <index id="deprecated-api-index" role="deprecated">
+    <title>Index of deprecated API</title>
+    <xi:include href="xml/api-index-deprecated.xml"><xi:fallback /></xi:include>
+  </index>
+
+  <xi:include href="xml/annotation-glossary.xml"><xi:fallback /></xi:include>
+</book>

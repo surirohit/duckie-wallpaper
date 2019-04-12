@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DENABLE_DEBUG=ON -DENABLE_OPTIMIZATION=ON -DENABLE_DOC=ON -DUSE_APPINDICATOR=ON
+
+override_dh_strip:
+	dh_strip -plivewallpaper --dbg-package=livewallpaper-dbg
+	dh_strip -plivewallpaper-config --dbg-package=livewallpaper-config-dbg
+	dh_strip -plivewallpaper-indicator --dbg-package=livewallpaper-indicator-dbg
+
+%:
+	dh $@

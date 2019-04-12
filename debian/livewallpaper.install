@@ -1,0 +1,15 @@
+usr/bin/livewallpaper
+usr/lib/liblivewallpaper-core.so*
+usr/lib/livewallpaper/girepository-1.0/
+usr/lib/livewallpaper/livewallpaper.plugin
+usr/lib/livewallpaper/livewallpaper.xml
+etc/xdg/autostart/livewallpaper-autostart.desktop
+usr/share/applications/livewallpaper.desktop
+usr/share/glib-2.0/schemas/net.launchpad.livewallpaper.gschema.xml
+usr/share/icons/hicolor/scalable/apps/livewallpaper.svg
+
+usr/share/glib-2.0/schemas/net.launchpad.livewallpaper.plugins.*
+usr/lib/livewallpaper/plugins/
+usr/share/livewallpaper/plugins/
+
+usr/share/locale/

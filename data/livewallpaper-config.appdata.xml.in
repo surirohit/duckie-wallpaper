@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <id type="desktop">livewallpaper-config.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+    <_name>LiveWallpaper Preferences</_name>
+    <_summary>Configuration interfaces for LiveWallpaper</_summary>
+    <description>
+        <_p>
+            This package provides two interfaces that permit you to configure 
+            your LiveWallpaper.
+        </_p>
+        <_p>
+            The first one is a full of options preference window. With it, you can
+            manage LiveWallpaper as well as its installed plugins, an customize both
+            of them without technical knowledge.
+        </_p>
+        <_p>
+            The second one is an applet for your panel that allow you to start
+            or stop LiveWallpaper, to select the active plugin, and to quickly 
+            open the preferences window without passing by the menu.
+        </_p>
+    </description>
+    
+    <screenshots>
+        <!-- TODO: have a website where we may store screenshots...
+        <screenshot type="default"></screenshot>
+        <screenshot></screenshot>
+        -->
+    </screenshots>
+    <url type="homepage">https://www.launchpad.net/livewallpaper</url>
+    <updatecontact>aurelien.riv_at_gmail.com</updatecontact>
+</application>

@@ -1,0 +1,890 @@
+# Hebrew translation for livewallpaper
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the livewallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: livewallpaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2015-05-29 00:20+0000\n"
+"Last-Translator: ינון-דוד-צדוק (Yinon-David-Zadok) <Unknown>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr "%d פריימים לשנייה"
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr "<b>רקעים</b>"
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr "שעון המורכב ממעגלים במעברי צבע מתחלף"
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr "רשת של תמונות"
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr "רקע מונפש בהשראת אובונטו לפלאפונים"
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr "גלקסיה סובבת עם אלפי כוכביה"
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "רקע פעיל"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr "הוספה"
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr "הוסף מיקום חדש (לא ניתן לבחור קובץ בודד)"
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "רקעים מונפשים"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "הגדרות הנפשה"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr "זמן הנפשה (ms)"
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "מראה"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "הפעלה אוטומטית"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr "הפעלה אוטומטית"
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr "הפסק אוטומטית במעבר לסוללה"
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "רקע"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "תמונת רקע מקובץ (עיון...)"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "ממורכזת"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr "בוחר תמונת רקע לרקע המונפש"
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "צבע"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "צבע 1"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "צבע 2"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "צבע 3"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "צבע 4"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr "הגדרות צבע"
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "צבע האור של ליבת הגלקסיה"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr "צבע המעגל המרכזי"
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "צבע האור של דיסקית הגלקסיה"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr "צבע כוכבים"
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "צבע התאריך והשעה כולל הנקודות"
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr "רדיוס למעבר בין הצבעים"
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr "הצבע שישמש כרקע לשטח שמציג את מספר הפריימים הנוכחי לשנייה"
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr "הצבע שישמש להצגת מספר הפריימים הנוכחי לשנייה"
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr "פולסים צבעוניים הנעים מעברו האחד של המסך לצדו השני"
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "צבעים"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr "עמודות"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr "ממשקי תצורה עבור מרקע מונפש"
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "הגדר את הרקעים המונפשים"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "תמונה מותאמת אישית"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "תבנית תאריך"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "09-12-1994"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "09/12/1994"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr "ברירת מחדל"
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr "קובע אם הרקע המונפש יופעל עם כניסתך למערכת"
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr "הזמן בין הנפשה להנפשה"
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr "קובע איך תוצג תמונת הרקע שבחרת מקבציך"
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr "ספריות"
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr "הצג מספר גרסה"
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "מציג את הכוכבים עם קרני אור"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "הצג קרני אור לכוכב"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr "משך הזמן לביצוע ההנפשה"
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "אפשר צבע אור מותאם אישית"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr "תנועה חלקה בסיום"
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr "כל עשר דקות"
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "כל חצי שעה"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "כל שעה"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "כל דקה"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr "פריימים לשנייה"
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "הגבלת FPS"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr "צבע רקע לפריימים"
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr "גופן להצגת הפריימים"
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr "צבע הגופן לפריימים"
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr "זמן היעלמות"
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr "קבצים"
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "מילוי"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr "סנן את המפתחות בחיפוש דרך תווית, תיאור הכלי וערכים"
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "גופן"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "צבע הגופן"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr "אור הגלקסיה"
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "כללי"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr "סוג זוהר"
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "מעבר צבעים אופקי"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "באיזו תדירות על הצבעים להתחלף"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr "יישומון להגדרת מרקע מונפש"
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr "אודות"
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "צבע אור פנימי"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr "הצבע השמאלי או התחתון לצבע הדרגתי, או, הצבע האחיד במקרה ונבחר"
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr "אורך של פולס ממינימום למקסימום"
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr "אורך חיים"
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr "משך קיום של כתם בשניות"
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "מגביל את מספר הפריימים לשנייה לערך הבא"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "מרקע מונפש"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr "אייקון מרקע מונפש"
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "הגדרות מרקע מונפש"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "הגדרות מרקע מונפש..."
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr "מעגל ראשי"
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr "זמן מקסימלי להופעה מחודשת"
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "12-09-1994"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "12.09.1994"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "הזז, סובב וקרב"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "מצב מסכים מרובים (שניים ומעלה)"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "רקעים מרובים"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr "לעולם לא"
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr "מספר כתמים"
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr "מספר פולסים"
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "מספר כוכבים"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "מיקום רוחבי על המסך"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "מיקום אורכי על המסך (גובה)"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr "במעבר לסוללה"
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr "כשהסוללה נחלשת"
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "רקע אחד על הכל"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr "אטימות"
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr "אטימות חלון זה (שקיפות)"
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr "שאר המעגלים"
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "צבע אור חיצוני"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr "הגדרות גופים"
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr "גודל כתם"
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "הנתיב אל קובץ תמונת הרקע שתבחר"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr "זמן רגיעה (ms)"
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "הגדרות התמונות"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr "תיקיות התמונות"
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr "ניהול צריכת החשמל"
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "צבע ראשי"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr "צבע פולס"
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr "אורך פולס"
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr "גודל פולס"
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr "רדיוס מבחוץ פנימה, למעבר בין הצבעים. אפס-צבע פנימי, שתיים-מעבר מלא."
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "הסר מיקום נבחר"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr "תצוגת רקע מקובץ"
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr "הנפש את הרקע שלך עם רקעי הנפשת OpenGL מלאה של מרקע מונפש"
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "ברירת מחדל"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+"הפעל מחדש את מרקע מונפש כשהמחשב הנישא חובר לשקע החשמלי. יפעל רק לאחר הפסקה "
+"אוטומטית."
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr "הצבע הימני או העליון לצבע הדרגתי, ולא יהיה הצבע האחיד"
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "סיבוב ציר ה-X"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "סיבוב ציר ה-Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "סיבוב ציר ה-Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr "מסובב את הגלקסיה סביב ציר ה-X"
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr "מסובב את הגלקסיה סביב ציר ה-Y"
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr "מסובב את הגלקסיה סביב ציר ה-Z"
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr "מהירות סיבובית"
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr "מהירות סיבובית של הגלקסיה כולה במחזורים לשעה"
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr "שורות"
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "התאמת הגודל"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr "מחפש תמונות בתיקיות אלו"
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr "חיפוש..."
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "צבע משני"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr "בחרו מיקום"
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr "בחירת קובץ"
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr "קובע איך הרקע המונפש מוצג במקרה של ריבוי מסכים"
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+"הפעל אם ברצונך שמרקע מונפש יעצור אוטומטית כשהמחשב הנישא עובר לסוללה. עלול "
+"למנוע הפעלה עם הכניסה למערכת."
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr "הפעל כדי להראות סמלי שולחן עבודה עם נאוטילוס כאשר מרקע מונפש פועל"
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "קבע אם הרקע המונפש גלוי או מוסתר"
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr "הראה פריימים לשנייה"
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr "הצג סמלי שולחן העבודה (תומך 'נאוטילוס' בלבד)"
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "הפעל/הפסק רקע מונפש"
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr "הצג/הסתר את מרקע מונפש. יפעיל את מרקע מונפש אם אינו רץ עדיין."
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr "הראה את מספר הפריימים הנוכחי לשנייה."
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "צבע בודד"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "גודל"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr "גודל של כתם ממינימום למקסימום"
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr "גודל של פולס"
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "גודל של כוכב"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr "גודל המעגל המרכזי"
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr "בועות שטות ברוגע"
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr "האצת התנועה בתחילת ההנפשה (0.0-ללא, 1.0-לאט)"
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr "בלימת התנועה בסיום ההנפשה (0.0-ללא, 1.0-לאט)"
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr "מקדם מהירות של הכוכבים"
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr "יחס מהירות"
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr "צבע כוכב"
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "גודל כוכב"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr "תנועה חלקה בהתחלה"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+"הראשון הוא חלון מלא באפשרויות העדפה. איתו, תוכל לשלוט במרקע מונפש וכן על "
+"התוספות המותקנות שלו. התאמה אישית של שניהם ללא דרישת ידע טכני."
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+"התמונה צריכה להיות שורה של צבעים. השורה הראשונה תבחר ותשמש לצבעים האפשריים "
+"בשביל המעגלים. הצבע שיבחר תלוי בתדירות מעבר הצבעים וברוחב התמונה, כך שלא כל "
+"צבע יופיע."
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "הגופן להצגת התאריך והשעה"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr "הגופן שישמש להצגת מספר הפריימים הנוכחי לשנייה"
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr "שם הרקע הפעיל"
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr "מספר התמונות בכל קו אנכי"
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr "מספר התמונות בכל קו אופקי"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+"השני הוא יישומון ללוח (פאנל) איתו תוכל להפעיל ולכבות את מרקע מונפש, לבחור את "
+"התוסף שיפעל ולפתוח את חלון ההעדפות במהירות בי לעבור בתפריט"
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr "עטרת הפולס, צורת ראשו"
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr "זמן הופעה או היעלמות של כתם"
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr "הזמן המקסימלי שייקח לפולס להופיע שוב על גבי המסך לאחר שנעלם"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr "עם חבילה זו תוכל להגדיר את מרקע מונפש דרך שני ממשקים"
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr "התוסף אינו נתמך בגרסה זאת של מרקע מונפש."
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "פרישה"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr "תבנית תאריך ושעה"
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr "זמן התחלפות צבע באלפיות שנייה"
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "שקיפות"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr "שקיפות המעגל המרכזי. שקיפות מוחלטת ב-0."
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "תדירות עדכון"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "השתמש במבנה 24 שעות"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr "השתמש בצבעים אקראיים"
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr "שימוש בצבעי פולס אקראיים במקום ארבעת הצבעים שנבחרו"
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "מעבר צבעים אנכי"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr "מזיז את הגלקסיה לרוחב המסך. אפס-מרכז, מעליו-ימינה, מתחתיו-שמאלה."
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr "מזיז את הגלקסיה לאורך המסך. אפס-מרכז, מעליו-מעלה, מתחתיו-מטה."
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "1994-12-09"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "1994.12.09"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "מרחק"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "מרחק הגלקסיה מהמסך"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr "מעגלים אחד בתוך השני"
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr "מ-"
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr "עגול"
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr "שבלולי"
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr "רבוע"
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr "עד-"
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Maximilian Schnarr https://launchpad.net/~fyrmir\n"
+"  ינון-דוד-צדוק (Yinon-David-Zadok) https://launchpad.net/~yinon-david-zadok"
+
+#~ msgid "Cannot find settings for this plugin."
+#~ msgstr "לא נמצאו הגדרות לרקע זה"
+
+#~ msgid "Folders"
+#~ msgstr "תיקיות"
+
+#~ msgid "Move the window behind all other desktop windows"
+#~ msgstr "הזז את החלון מאחורי שאר החלונות"
+
+#~ msgid "Pictures"
+#~ msgstr "תמונות"
+
+#~ msgid "Select a picture"
+#~ msgstr "בחר תמונה"
+
+#~ msgid "Show FPS in the lower right corner"
+#~ msgstr "הצג FPS בפינה הימנית התחתונה"
+
+#~ msgid "Start LiveWallpaper if autostart is enabled"
+#~ msgstr "מתחיל את מרקע מונפש אם הפעלה אוטומטית מאופשרת"
+
+#~ msgid "Time to switch from one color to another color"
+#~ msgstr "הזמן מעבר מצבע אחד לשני"
+
+#~ msgid "Wallpapers"
+#~ msgstr "רקעים"

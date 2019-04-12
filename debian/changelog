@@ -1,0 +1,115 @@
+livewallpaper (0.5.0-0) trusty; urgency=low
+
+  * Support for high resolution displays
+  * New autostart mechanism
+  * New FPS options:
+    - Add to the configurator
+    - Add font selection option
+    - Add color options
+  * New power management options:
+    - Use upower-glib
+    - Add autostart and autostop on battery
+    - Only visible on laptops
+  * Support for OpenGL 1.4
+  * Configurator:
+    - Completely rewritten in vala
+    - New design
+    - Add search feature
+    - Add titlebar
+    - New xml file parser for plugin settings
+  * Bugfixes:
+    - Background images support cairo (lp: #1143720)
+    - Indicator not shown at startup (lp: #1273541)
+    - Segfault on Ubuntu 13.10 (lp: #1274220)
+    - Improved support for multiple monitor systems (lp: #1460407)
+  * Noise plugin:
+    - Use GResource to load images
+  * Nexus plugin:
+    - Background image replaced by cairo code
+    - Use GResource to load images
+  * Galaxy plugin:
+    - Add speed ratio option
+    - Add star color option
+    - Add rotation of the whole galaxy
+    - New galaxy light image
+    - Use GResource to load images
+  * Add gradient clock plugin
+  * Core:
+    - Add fast sin/cos functions
+    - Add matrix functions
+    - Add new OpenGL functions
+    - Add helper functions for GResource loading/unloading
+    - Add GSettings helper macros
+    - Several small changes to existing objects
+  * Updated documentation
+  * Updated translations
+  * New language: Turkish
+
+ -- Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>  Sun, 21 Feb 2016 09:47:10 +0100
+
+livewallpaper (0.4.1-0) precise; urgency=low
+
+  * Translation updates
+
+ -- Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>  Sat, 02 Mar 2013 10:34:10 +0100
+
+livewallpaper (0.4.0-0) precise; urgency=low
+
+  [ RIVIÈRE Aurélien ]
+  * Nexus plugin:
+    - Add random pulse color option
+  * Configurator:
+    - Improve image selector
+    - Add folder selector
+    - Add selector for multiple folders/images
+  * Bugfix:
+    - indicator does not find local plugins
+
+  [ Koichi Akabe ]
+  * Add photoslide plugin
+
+  [ Maximilian Schnarr ]
+  * Add circles plugin
+  * Add noise plugin
+  * Galaxy plugin:
+    - Improve performance
+    - Use GLSL shader instead of ARB program for custom galaxy light
+  * Nexus plugin:
+    - Use range selector for pulse length
+  * Configurator:
+    - New design
+    - Add range selector widget
+  * Core:
+  	- Add simplex noise functions
+  	- Add basic OpenGL shader support
+  	- Add LwHSL structure
+  	- Improve color conversion functions
+  	- Add LwRange structure
+  	- Add several utility functions
+  * Indicator:
+    - Search plugins by plugin file not by schema id
+  * Improve custom background options
+  * Update documentation
+  * Enable compiler optimization to improve performance
+  * Bugfixes:
+    - live wallpaper stops when system time changes (lp: #1120820)
+    - configurator gets false minimum or maximum value if the current
+      locale uses , instead of . as decimal mark
+  * Translate desktop files
+  * Translation updates
+
+ -- Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>  Wed, 20 Feb 2013 12:28:07 +0100
+
+livewallpaper (0.3.1-0) precise; urgency=low
+
+  * Fix bug related to custom background images.
+  * Fix autostart-bug. (lp: #1074935)
+  * Translation updates
+
+ -- Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>  Sat, 29 Dec 2012 09:50:15 +0100
+
+livewallpaper (0.3.0-0) precise; urgency=low
+
+  * Initial release.
+
+ -- Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>  Sun, 04 Nov 2012 14:33:40 +0100

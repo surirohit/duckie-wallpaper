@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+_Name=LiveWallpaper Preferences
+_Comment=Configure the live wallpapers
+Icon=livewallpaper-config
+TryExec=livewallpaper-config
+Exec=livewallpaper-config
+Terminal=false
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;

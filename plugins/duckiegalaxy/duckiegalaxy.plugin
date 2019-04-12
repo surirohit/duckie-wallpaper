@@ -1,0 +1,8 @@
+[Plugin]
+Module=duckiegalaxy
+IAge=1
+Name=DuckieGalaxy
+Description=A rotating galaxy with thousands of duckies
+Authors=Aleksandar Petrov <alpetrov@ethz.ch>; based on Galaxy by Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>; Aurélien RIVIERE <aurelien.riv@gmail.com>
+Copyright=Copyright © 2012-2016 Maximilian Schnarr
+License-type=gpl-3-0

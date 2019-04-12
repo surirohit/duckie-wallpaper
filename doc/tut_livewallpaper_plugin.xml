@@ -1,0 +1,307 @@
+<refentry id="tut-wallpaper">
+	<refmeta>
+		<refentrytitle>Writing LiveWallpaper Plugins</refentrytitle>
+		<manvolnum>3</manvolnum>
+		<refmiscinfo>LiveWallpaper Core</refmiscinfo>
+	</refmeta>
+	<refnamediv>
+		<refname>Writing LiveWallpaper Plugins</refname>
+		<refpurpose>Tutorial on writing LiveWallpaper plugins</refpurpose>
+	</refnamediv>
+
+	<refsect1>
+		<title>Introduction</title>
+		<para>
+			If you want to create your own wallpaper, you have to create a LiveWallpaper
+			plugin. Each live wallpaper is realised as a plugin. This makes it easy to
+			create new wallpapers or install several wallpapers on your system.
+		</para>
+
+		<refsect2>
+			<title>Locations</title>
+			<para>
+				There are two locations to install your plugin. LiveWallpaper plugins
+				can either be installed in the system path (<filename>/usr/lib/livewallpaper/plugins</filename>),
+				or in a user's home directory (<filename>~/.livewallpaper/plugins</filename>).
+				Each plugin resides in a subdirectory named after the plugin itself.
+			</para>
+		</refsect2>
+
+		<refsect2>
+			<title>Required Files</title>
+			<para>
+				Each plugin consists of the following files:
+				<itemizedlist>
+					<listitem>
+						<para>
+							A .plugin file that holds some informations about the plugin.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="tut-schema">A GSettings schema file</link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							The plugin's binary files
+						</para>
+					</listitem>
+				</itemizedlist>
+
+				You can also add the following files to your plugin:
+				<itemizedlist>
+					<listitem>
+						<para>
+							An icon file that will be shown inside the configurator.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Some additional data files like texture images.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</refsect2>
+	</refsect1>
+
+	<refsect1 id="plugin-file">
+		<title>The .plugin File</title>
+		<para>
+			This file is essential for a plugin because it holds some informations
+			required by the plugin engine and the configurator. The .plugin file
+			should look like the following example:
+			<programlisting>[Plugin]
+Loader=<replaceable>python</replaceable>
+Module=<replaceable>plugin-name</replaceable>
+IAge=<replaceable>1</replaceable>
+Name=<replaceable>Plugin Name</replaceable>
+Description=<replaceable>Simple description of the plugin</replaceable>
+Schema-id=<replaceable>net.launchpad.livewallpaper</replaceable>
+Authors=<replaceable>Plugin Author Name &lt;E-Mail Address&gt;</replaceable>
+Copyright=Copyright © <replaceable>year</replaceable> <replaceable>Copyright Holder</replaceable>
+Website=<replaceable>http://website</replaceable>
+License-type=<replaceable>gpl-3-0</replaceable>
+License=<replaceable>This program comes with ABSOLUTELY NO WARRANTY; for details, visit &lt;a href="http://www.gnu.org/licenses/gpl.html"&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt;</replaceable></programlisting>
+			This example file contains every key that will be used by the configurator or
+			the plugin engine. Not all keys supported by PeasEngine are used by
+			LiveWallpaper. You don't have to specify all keys. For example if the plugin
+			don't has its own website, you don't need to add the <emphasis>Website</emphasis>
+			key.
+		</para>
+
+		<para>
+			<emphasis>Loader:</emphasis> This key is only required if you are not using c
+			as programming language. At the moment only the <emphasis>python</emphasis>
+			loader is supported.
+		</para>
+		<para>
+			<emphasis>Module:</emphasis> This is the plugin's name. It should be in lowercase
+			and contain no spaces.
+		</para>
+		<para>
+			<emphasis>IAge:</emphasis> This is the plugin's interface age. This number changes
+			if the WallpaperInterface changes. The current interface age is 1.
+		</para>
+		<para>
+			<emphasis>Name:</emphasis> The human-readable plugin name. This name will be shown
+			to the user inside the configurator. So this is not exactly the same as <emphasis>Module</emphasis>.
+		</para>
+		<para>
+			<emphasis>Schema-id:</emphasis> Use a different schema id then the default one. This will
+			be used by the configurator to find the schema of the plugin. By default the configurator
+			uses <emphasis>net.launchpad.livewallpaper.plugins.<replaceable>plugin-name</replaceable></emphasis> as schema id.
+		</para>
+		<para>
+			<emphasis>License-type:</emphasis> The name of a predefined license.
+			Could be <emphasis>gpl-2-0</emphasis>, <emphasis>gpl-3-0</emphasis>, <emphasis>lgpl-2-1</emphasis>, <emphasis>lgpl-3-0</emphasis>, <emphasis>bsd</emphasis> <emphasis>mit-x11</emphasis> or <emphasis>artistic</emphasis>.
+			This key overrides the License key.
+		</para>
+		<para>
+			<emphasis>License:</emphasis> A link to the license or the license's summary or full text.
+		</para>
+	</refsect1>
+
+	<refsect1>
+		<title>Programming</title>
+		<para>
+			Creating a plugin is just creating a GObject which implements the
+			LwWallpaperInterface.
+		</para>
+
+		<refsect2>
+			<title>The Wallpaper Interface</title>
+			<para>
+				Each plugin has to implement the WallpaperInterface. The interface
+				provides some entry points into the drawing process. A plugin doesn't has to
+				implement a defined method. It is possible to only implement the methods
+				required to show the wallpaper.
+			</para>
+			<para>
+				After the plugin gets constructed, the <link linkend="lw-wallpaper-init-plugin"><function>init_plugin</function></link>
+				method will be called.The plugin interface provides a own initialization method
+				because inside the constructor of the GObject it is not possible to get the plugin's
+				data dir from the plugin engine. A plugin can first get its data dir in this second
+				initialization method.
+			</para>
+			<para>
+				There are two possible orders for the other method calls. If there is only
+				one output area, the methods will be called in the following order:
+				<itemizedlist>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-adjust-viewport"><function>adjust_viewport</function></link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-prepare-paint"><function>prepare_paint</function></link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-paint"><function>paint</function></link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-done-paint"><function>done_paint</function></link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-restore-viewport"><function>restore_viewport</function></link>
+						</para>
+					</listitem>
+				</itemizedlist>
+				It exists only one output area if only one physical screen is attached to
+				the system or if the wallpaper should be drawn over all screens as one big
+				wallpaper.
+			</para>
+			<para>
+				If there are more physical screens, the methods will be called in the following
+				order:
+				<itemizedlist>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-prepare-paint"><function>prepare_paint</function></link>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							for each output
+							<itemizedlist>
+								<listitem>
+									<para>
+										<link linkend="lw-wallpaper-adjust-viewport"><function>adjust_viewport</function></link>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<link linkend="lw-wallpaper-paint"><function>paint</function></link>
+									</para>
+								</listitem>
+								<listitem>
+									<para>
+										<link linkend="lw-wallpaper-restore-viewport"><function>restore_viewport</function></link>
+									</para>
+								</listitem>
+							</itemizedlist>
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							<link linkend="lw-wallpaper-done-paint"><function>done_paint</function></link>
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			<para>
+				The methods will always be called in one of these orders, so you can rely
+				on the fact that each call to adjust_viewport will be followed by a call to
+				restore_viewport.
+			</para>
+		</refsect2>
+
+		<refsect2>
+			<title>Example Plugins</title>
+			<para>
+				You can download the source of some well commented example plugins with
+				this command:
+				<programlisting>bzr branch lp:~fyrmir/livewallpaper/example-plugins</programlisting>
+				You can browse the code online <ulink url="https://code.launchpad.net/~fyrmir/livewallpaper/example-plugins">here</ulink>.
+			</para>
+			<para>
+				The example plugins are written in every language that works with LiveWallpaper.
+				At the moment this is c and python. It might be possible that not all features
+				provided by the API are supported by python plugins.
+			</para>
+		</refsect2>
+	</refsect1>
+
+	<refsect1>
+		<title>Integration with a build system</title>
+		<refsect2>
+			<title>The cmake build system</title>
+			<para>
+				The LiveWallpaper project uses cmake as build system. So it also provides
+				some cmake macros for easier plugin creation.
+			</para>
+			<para>
+				Finding LiveWallpaper is really easy because it provides a FindLivewallpaper.cmake
+				file.
+				<programlisting>find_package(Livewallpaper REQUIRED)</programlisting>
+			</para>
+			<para>
+				For compiling and installing a plugin, there are the livewallpaper_plugin_*() and
+				livewallpaper_plugin_install_data() macros. Here a simple example on how to use
+				them.
+				<programlisting>
+include(LivewallpaperPlugin)
+
+...
+
+# for c plugins
+livewallpaper_plugin_c(<replaceable>PLUGIN_NAME</replaceable>
+                       SOURCES <replaceable>Source Files</replaceable>
+                       GSCHEMA <replaceable>schema.xml</replaceable>
+                       ICON <replaceable>icon.svg</replaceable>
+)
+
+# or for python plugins
+livewallpaper_plugin_python(<replaceable>PLUGIN_NAME</replaceable>
+                            SOURCES <replaceable>Source Files</replaceable>
+                            GSCHEMA <replaceable>schema.xml</replaceable>
+                            ICON <replaceable>icon.svg</replaceable>
+)
+
+...
+
+livewallpaper_plugin_install_data(<replaceable>PLUGIN_NAME</replaceable>
+                                  FILES <replaceable>Additional Files</replaceable>
+)
+
+livewallpaper_plugin_install_data(<replaceable>PLUGIN_NAME</replaceable>
+                                  DIRECTORY <replaceable>Additional Directories</replaceable>
+)</programlisting>
+				You can find a more detailed description inside the LivewallpaperPlugin.cmake
+				file.
+			</para>
+		</refsect2>
+
+		<refsect2>
+			<title>Other build systems</title>
+			<para>
+				You just have to compile the plugin and install it in the right directory, so
+				there are no further information on how to use other build systems here.
+				<note>
+					<para>
+						You can check if the LiveWallpaper headers and libraries are installed
+						on your system by using pkg-config.
+					</para>
+				</note>
+			</para>
+		</refsect2>
+	</refsect1>
+</refentry>

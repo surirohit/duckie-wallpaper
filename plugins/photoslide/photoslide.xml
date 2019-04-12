@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+	<schema id="net.launchpad.livewallpaper.plugins.photoslide" path="/net/launchpad/livewallpaper/plugins/photoslide/">
+		<lw:tab name="Pictures Settings">
+			<key type="as" name="pictures-directories">
+				 <lw:type>folders</lw:type> 
+				<default>["/usr/share/backgrounds"]</default>
+				<summary>Pictures folders</summary>
+				<description>Search pictures in these folders</description>
+			</key>
+		</lw:tab>
+		<lw:tab name="Animation Settings">
+			<key type="i" name="animation-time">
+				<range min="100" max="5000" />
+				 <lw:increment>200</lw:increment> 
+				<default>500</default>
+				<summary>Animation time (ms)</summary>
+				<description>Duration of the animation</description>
+			</key>
+			<key type="i" name="pause-time">
+				<range min="100" max="20000" />
+				 <lw:increment>200</lw:increment> 
+				<default>1000</default>
+				<summary>Pause time (ms)</summary>
+				<description>Delay until next animation</description>
+			</key>
+			<key type="d" name="start-smoothness">
+				<range min="0.0" max="1.0" />
+                <lw:digits>2</lw:digits>
+                <lw:scale />
+				<default>0.5</default>
+				<summary>Start smoothness</summary>
+				<description>Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)</description>
+			</key>
+			<key type="d" name="end-smoothness">
+				<range min="0.0" max="1.0" />
+                <lw:digits>2</lw:digits> 
+				<lw:scale />
+                <default>0.5</default>
+				<summary>End smoothness</summary>
+				<description>Smoothness at the end of the animation (0.0: linear, 1.0: slow)</description>
+			</key>
+			 <lw:separator/> 
+			<key type="i" name="cols">
+				<range min="1" max="10" />
+				<default>5</default>
+				<summary>Columns</summary>
+				<description>The number of pictures for each horizontal line</description>
+			</key>
+			<key type="i" name="rows">
+				<range min="1" max="10" />
+				<default>4</default>
+				<summary>Rows</summary>
+				<description>The number of pictures for each vertical line</description>
+			</key>
+		</lw:tab>
+	</schema>
+</schemalist>

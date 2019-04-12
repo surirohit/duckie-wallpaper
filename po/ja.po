@@ -1,0 +1,910 @@
+# Japanese translation for livewallpaper
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the livewallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: livewallpaper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-08 19:21+0100\n"
+"PO-Revision-Date: 2014-01-25 17:22+0000\n"
+"Last-Translator: Maximilian Schnarr <Maximilian.Schnarr@googlemail.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-20 18:44+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/fps-visualizer.c:178
+#, c-format
+msgid "%d FPS"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:1
+msgid "<b>Wallpapers</b>"
+msgstr ""
+
+#: ../po/translations.h:53
+msgid "A clock consisting of gradient circles"
+msgstr ""
+
+#: ../po/translations.h:56
+msgid "A grid of pictures"
+msgstr "画像のグリッド"
+
+#: ../po/translations.h:51
+msgid "A live wallpaper inspired by Ubuntu phone OS"
+msgstr "Ubuntu phone OS に影響を受けたライブ壁紙"
+
+#: ../po/translations.h:52
+msgid "A rotating galaxy with thousands of stars"
+msgstr "数千個の星と共に回転する銀河"
+
+#: ../data/livewallpaper.xml.h:3
+msgid "Active plugin"
+msgstr "アクティブなプラグイン"
+
+#: ../ui/config/files-selector.vala:58
+msgid "Add"
+msgstr ""
+
+#: ../ui/config/files-selector.vala:54
+msgid "Add new item"
+msgstr "新しい項目の追加"
+
+#: ../data/livewallpaper.desktop.in.h:2
+#: ../data/livewallpaper-autostart.desktop.in.h:2
+msgid "Animated wallpapers"
+msgstr "アニメーション壁紙"
+
+#: ../po/translations.h:40 ../po/translations.h:45
+msgid "Animation Settings"
+msgstr "アニメーションの設定"
+
+#: ../plugins/photoslide/photoslide.xml.h:3
+msgid "Animation time (ms)"
+msgstr "アニメーション時間 (ms)"
+
+#: ../po/translations.h:42 ../po/translations.h:47
+msgid "Appearance"
+msgstr "外観"
+
+#: ../data/livewallpaper.xml.h:5
+msgid "Autostart"
+msgstr "自動起動"
+
+#: ../data/livewallpaper.xml.h:13
+msgid "Autostart on power"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:11
+msgid "Autostop on battery"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:15 ../po/translations.h:32
+msgid "Background"
+msgstr "背景"
+
+#: ../data/livewallpaper.xml.h:17
+msgid "Background Image"
+msgstr "背景の画像"
+
+#: ../ui/config/files-selector.vala:57
+msgid "Cancel"
+msgstr ""
+
+#: ../po/translations.h:10
+msgid "Center"
+msgstr "中央"
+
+#: ../data/livewallpaper.xml.h:16
+msgid "Choose the plugin's background image"
+msgstr "プラグインの背景画像を選択します"
+
+#: ../plugins/circles/circles.xml.in.h:3
+msgid "Color"
+msgstr "色"
+
+#: ../plugins/nexus/nexus.xml.h:10
+msgid "Color 1"
+msgstr "色1"
+
+#: ../plugins/nexus/nexus.xml.h:12
+msgid "Color 2"
+msgstr "色2"
+
+#: ../plugins/nexus/nexus.xml.h:13
+msgid "Color 3"
+msgstr "色3"
+
+#: ../plugins/nexus/nexus.xml.h:14
+msgid "Color 4"
+msgstr "色4"
+
+#: ../po/translations.h:39
+msgid "Color Settings"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:14
+msgid "Color in the centre of the galaxy"
+msgstr "銀河の中心部分の色"
+
+#: ../plugins/circles/circles.xml.in.h:4
+msgid "Color of the main circle"
+msgstr "メインの円の色"
+
+#: ../plugins/galaxy/galaxy.xml.h:12
+msgid "Color of the outer parts of the galaxy"
+msgstr "銀河の外側部分の色"
+
+#: ../plugins/galaxy/galaxy.xml.h:9
+msgid "Color of the stars"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:10
+msgid "Color of the time and the date. This is also the color of the dots."
+msgstr "時刻と日付の色。これはドットの色でもあります。"
+
+#: ../plugins/galaxy/galaxy.xml.h:15
+msgid "Color radius"
+msgstr "色半径"
+
+#: ../data/livewallpaper.xml.h:34
+msgid ""
+"Color used as background for the area which shows the current frames per "
+"second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:32
+msgid "Color used to display the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:54
+msgid "Colorful pulses move from one side of the screen to the opposite side"
+msgstr "画面を一方からもう一方に横切るカラフルなパルス"
+
+#: ../plugins/circles/circles.xml.in.h:13 ../po/translations.h:37
+msgid "Colors"
+msgstr "色"
+
+#: ../plugins/photoslide/photoslide.xml.h:11
+msgid "Columns"
+msgstr "横方向の数"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:2
+msgid "Configuration interfaces for LiveWallpaper"
+msgstr ""
+
+#: ../data/livewallpaper-config.desktop.in.h:2
+msgid "Configure the live wallpapers"
+msgstr "ライブ壁紙を設定します"
+
+#: ../po/translations.h:5
+msgid "Custom image"
+msgstr "カスタム画像"
+
+#: ../plugins/circles/circles.xml.in.h:12
+msgid "Date format"
+msgstr "日付の書式"
+
+#: ../po/translations.h:22
+msgid "Day-Month-Year"
+msgstr "日-月-年"
+
+#: ../po/translations.h:21
+msgid "Day.Month.Year"
+msgstr "日.月.年"
+
+#: ../po/translations.h:4
+msgid "Default background"
+msgstr "デフォルトの背景"
+
+#: ../data/livewallpaper.xml.h:6
+msgid "Define whether LiveWallpaper should autostart at startup"
+msgstr "スタートアップ時にライブ壁紙を自動的に起動するかどうかを指定します"
+
+#: ../plugins/photoslide/photoslide.xml.h:6
+msgid "Delay until next animation"
+msgstr "次のアニメーションまでの待ち時間"
+
+#: ../data/livewallpaper.xml.h:20
+msgid "Determines how the background image is rendered"
+msgstr "背景画像がどのように描画されるかを指定します"
+
+#: ../ui/config/key.vala:133
+msgid "Directories"
+msgstr ""
+
+#: ../src/command-line.c:41
+msgid "Displays version number"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:7
+msgid "Draw a star with streaks"
+msgstr "星を瞬かせながら描画します"
+
+#: ../plugins/galaxy/galaxy.xml.h:6
+msgid "Draw star streaks"
+msgstr "星の瞬きを描画"
+
+#: ../plugins/photoslide/photoslide.xml.h:4
+msgid "Duration of the animation"
+msgstr "アニメーションの持続時間"
+
+#: ../plugins/galaxy/galaxy.xml.h:10
+msgid "Enable custom light color"
+msgstr "カスタムの光の色を使う"
+
+#: ../plugins/photoslide/photoslide.xml.h:9
+msgid "End smoothness"
+msgstr "終了時の滑らかさ"
+
+#: ../po/translations.h:19
+msgid "Every 10 minutes"
+msgstr "10分毎"
+
+#: ../po/translations.h:18
+msgid "Every 30 minutes"
+msgstr "30分毎"
+
+#: ../po/translations.h:17
+msgid "Every hour"
+msgstr "1時間毎"
+
+#: ../po/translations.h:20
+msgid "Every minute"
+msgstr "1分毎"
+
+#: ../po/translations.h:33
+msgid "FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:25
+msgid "FPS Limit"
+msgstr "FPS(フレームレート)の上限"
+
+#: ../data/livewallpaper.xml.h:33
+msgid "FPS visualizer's background color"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:29
+msgid "FPS visualizer's font"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:31
+msgid "FPS visualizer's font color"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:17 ../plugins/noise/noise.xml.h:4
+msgid "Fade time"
+msgstr "フェード時間"
+
+#: ../ui/config/key.vala:130
+msgid "Files"
+msgstr ""
+
+#: ../po/translations.h:12
+msgid "Fill"
+msgstr "いっぱいに広げる"
+
+#: ../ui/config/livewallpaper-config.ui.h:8
+msgid "Filter the keys by searching through their label, tooltip and values"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:7
+msgid "Font"
+msgstr "フォント"
+
+#: ../plugins/circles/circles.xml.in.h:9
+msgid "Font Color"
+msgstr "フォントの色"
+
+#: ../po/translations.h:49
+msgid "Galaxy Light"
+msgstr "銀河の光"
+
+#: ../po/translations.h:31
+msgid "General"
+msgstr "全般"
+
+#: ../plugins/nexus/nexus.xml.h:8
+msgid "Glow type"
+msgstr "光の種類"
+
+#: ../po/translations.h:7
+msgid "Horizontal color gradient"
+msgstr "水平方向のグラデーション"
+
+#: ../plugins/circles/circles.xml.in.h:16
+msgid "How often should the color change?"
+msgstr "どの頻度で色を変えますか？"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:2
+msgid "Indicator applet to set up the live wallpapers"
+msgstr "ライブ壁紙の設定用インジケーター"
+
+#: ../ui/config/livewallpaper-config.ui.h:3
+msgid "Info"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:13
+msgid "Inner color"
+msgstr "内側の色"
+
+#: ../data/livewallpaper.xml.h:22
+msgid "Left or bottom color when drawing gradients, or the solid color"
+msgstr "グラデーション描画時の左側または下側の色、もしくは単色描画での色"
+
+#: ../plugins/nexus/nexus.xml.h:5
+msgid "Length of a pulse"
+msgstr "パルスの長さ"
+
+#: ../plugins/noise/noise.xml.h:6
+msgid "Lifetime"
+msgstr "寿命時間"
+
+#: ../plugins/noise/noise.xml.h:7
+msgid "Lifetime of a particle in seconds"
+msgstr "粒子の寿命時間を秒で指定します"
+
+#: ../data/livewallpaper.xml.h:26
+msgid "Limit the frames per second to this value"
+msgstr "1秒あたりのフレーム数をこの値に制限します"
+
+#: ../data/livewallpaper.desktop.in.h:1
+#: ../data/livewallpaper-autostart.desktop.in.h:1 ../ui/indicator/main.vala:33
+msgid "LiveWallpaper"
+msgstr "ライブ壁紙"
+
+#: ../data/livewallpaper-indicator.desktop.in.h:1
+msgid "LiveWallpaper Indicator"
+msgstr "ライブ壁紙インジケーター"
+
+#: ../data/livewallpaper-config.desktop.in.h:1
+#: ../data/livewallpaper-config.appdata.xml.in.h:1
+#: ../ui/config/livewallpaper-config.ui.h:2
+msgid "LiveWallpaper Preferences"
+msgstr "ライブ壁紙の設定"
+
+#: ../ui/indicator/main.vala:47
+msgid "LiveWallpaper Settings..."
+msgstr "ライブ壁紙の設定..."
+
+#: ../po/translations.h:34
+msgid "Main circle"
+msgstr "メインの円"
+
+#: ../plugins/nexus/nexus.xml.h:6
+msgid "Max delay"
+msgstr "最大遅延時間"
+
+#: ../po/translations.h:26
+msgid "Month-Day-Year"
+msgstr "月-日-年"
+
+#: ../po/translations.h:25
+msgid "Month.Day.Year"
+msgstr "月.日.年"
+
+#: ../po/translations.h:38
+msgid "Move, Rotate and Zoom"
+msgstr "移動・回転・ズーム"
+
+#: ../data/livewallpaper.xml.h:9
+msgid "Multioutput Mode"
+msgstr "複数出力モード"
+
+#: ../po/translations.h:3
+msgid "Multiple wallpapers"
+msgstr "複数の壁紙"
+
+#: ../po/translations.h:14
+msgid "Never"
+msgstr ""
+
+#: ../plugins/noise/noise.xml.h:1
+msgid "Number of particles"
+msgstr "粒子の数"
+
+#: ../plugins/nexus/nexus.xml.h:1
+msgid "Number of pulses"
+msgstr "パルスの数"
+
+#: ../plugins/galaxy/galaxy.xml.h:1
+msgid "Number of stars"
+msgstr "星の数"
+
+#: ../plugins/galaxy/galaxy.xml.h:27
+msgid "Offset X"
+msgstr "X軸方向のオフセット"
+
+#: ../plugins/galaxy/galaxy.xml.h:29
+msgid "Offset Y"
+msgstr "Y軸方向のオフセット"
+
+#: ../po/translations.h:16
+msgid "On battery"
+msgstr ""
+
+#: ../po/translations.h:15
+msgid "On low battery"
+msgstr ""
+
+#: ../po/translations.h:2
+msgid "One big wallpaper"
+msgstr "一つの大きな壁紙"
+
+#: ../ui/config/livewallpaper-config.ui.h:7
+msgid "Opacity"
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:6
+msgid "Opacity of this window"
+msgstr ""
+
+#: ../po/translations.h:35
+msgid "Other circles"
+msgstr "他の円"
+
+#: ../plugins/galaxy/galaxy.xml.h:11
+msgid "Outer color"
+msgstr "外側の色"
+
+#: ../po/translations.h:36 ../po/translations.h:41 ../po/translations.h:43
+msgid "Particle Settings"
+msgstr "粒の設定"
+
+#: ../plugins/noise/noise.xml.h:2
+msgid "Particle Size"
+msgstr "粒子の大きさ"
+
+#: ../data/livewallpaper.xml.h:18
+msgid "Path to use for the background image"
+msgstr "背景画像として使用するファイルのパス"
+
+#: ../plugins/photoslide/photoslide.xml.h:5
+msgid "Pause time (ms)"
+msgstr "停止時間 (ms)"
+
+#: ../po/translations.h:44
+msgid "Pictures Settings"
+msgstr "画像の設定"
+
+#: ../plugins/photoslide/photoslide.xml.h:1
+msgid "Pictures folders"
+msgstr "画像フォルダー"
+
+#: ../po/translations.h:46
+msgid "Power Management"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:21
+msgid "Primary Color"
+msgstr "一番目の色"
+
+#: ../plugins/nexus/nexus.xml.h:11
+msgid "Pulse color"
+msgstr "パルスの色"
+
+#: ../plugins/nexus/nexus.xml.h:4
+msgid "Pulse length"
+msgstr "パルスの長さ"
+
+#: ../plugins/nexus/nexus.xml.h:2
+msgid "Pulse size"
+msgstr "パルスの大きさ"
+
+#: ../plugins/galaxy/galaxy.xml.h:16
+msgid "Radius of the radial color gradient"
+msgstr "放射状にグラデーションする部分の半径"
+
+#: ../ui/config/files-selector.vala:73
+msgid "Remove selected item"
+msgstr "選択した項目の削除"
+
+#: ../data/livewallpaper.xml.h:19
+msgid "Render Type"
+msgstr "描画方式"
+
+#: ../po/translations.h:50
+msgid ""
+"Replace your boring default wallpaper with a completely animated OpenGL "
+"wallpaper."
+msgstr ""
+"退屈なデフォルトの壁紙を、完全にアニメーション化されたOpenGLの壁紙に置き換え"
+"ます。"
+
+#: ../ui/config/key.vala:29
+msgid "Reset key to the default value"
+msgstr "キーをデフォルト値に戻します"
+
+#: ../data/livewallpaper.xml.h:14
+msgid ""
+"Restart the live wallpaper if the laptop is not on battery anymore. This "
+"only works, if LiveWallpaper stopped automatically because it is on (low) "
+"battery."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:24
+msgid "Right or top color when drawing gradients, not used for solid color"
+msgstr "グラデーション描画時の右側または上側の色、単色描画では使用されません"
+
+#: ../plugins/galaxy/galaxy.xml.h:21
+msgid "Rotate X"
+msgstr "X軸回転"
+
+#: ../plugins/galaxy/galaxy.xml.h:23
+msgid "Rotate Y"
+msgstr "Y軸回転"
+
+#: ../plugins/galaxy/galaxy.xml.h:25
+msgid "Rotate Z"
+msgstr "Z軸回転"
+
+#: ../plugins/galaxy/galaxy.xml.h:22
+msgid "Rotate the galaxy through X coordinate"
+msgstr "銀河をX軸に沿って回転します"
+
+#: ../plugins/galaxy/galaxy.xml.h:24
+msgid "Rotate the galaxy through Y coordinate"
+msgstr "銀河をY軸に沿って回転します"
+
+#: ../plugins/galaxy/galaxy.xml.h:26
+msgid "Rotate the galaxy through Z coordinate"
+msgstr "銀河をZ軸に沿って回転します"
+
+#: ../plugins/galaxy/galaxy.xml.h:19
+msgid "Rotational speed"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:20
+msgid "Rotational speed of the whole galaxy in revolutions per hour"
+msgstr ""
+
+#: ../plugins/photoslide/photoslide.xml.h:13
+msgid "Rows"
+msgstr "縦方向の数"
+
+#: ../po/translations.h:11
+msgid "Scale"
+msgstr "拡大・縮小"
+
+#: ../plugins/photoslide/photoslide.xml.h:2
+msgid "Search pictures in these folders"
+msgstr "これらのフォルダー内で画像を探します"
+
+#: ../ui/config/livewallpaper-config.ui.h:9
+msgid "Search..."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:23
+msgid "Secondary Color"
+msgstr "二番目の色"
+
+#: ../ui/config/key.vala:127
+msgid "Select a directory"
+msgstr "ディレクトリーの選択"
+
+#: ../ui/config/key.vala:124
+msgid "Select a file"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:10
+msgid ""
+"Selects how the live wallpaper is displayed if multiple output devices are "
+"used"
+msgstr ""
+"複数の出力デバイスが使われている時に、ライブ壁紙をどのように表示するかを選択"
+"します"
+
+#: ../data/livewallpaper.xml.h:12
+msgid ""
+"Selects whether the live wallpaper should automatically stop when the laptop "
+"runs on battery or on low battery. This may prevent LiveWallpaper from "
+"starting at startup."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:8
+msgid ""
+"Set this to true, if you want to see the desktop icons with Nautilus when a "
+"live wallpaper is running."
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:2
+msgid "Set whether the live wallpaper is visible or not"
+msgstr "ライブ壁紙を表示するかどうかを設定します"
+
+#: ../data/livewallpaper.xml.h:27
+msgid "Show FPS"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:7
+msgid "Show desktop icons (Nautilus only)"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:1
+msgid "Show or hide the live wallpaper"
+msgstr "ライブ壁紙の表示・非表示"
+
+#: ../ui/config/livewallpaper-config.ui.h:5
+msgid ""
+"Show or hide the live wallpaper. This will start LiveWallpaper if it is not "
+"already running."
+msgstr ""
+"ライブ壁紙を表示または非表示にします。ライブ壁紙が実行されていないときは、ラ"
+"イブ壁紙を起動します。"
+
+#: ../data/livewallpaper.xml.h:28
+msgid "Show the current frames per second"
+msgstr ""
+
+#: ../po/translations.h:6
+msgid "Single color"
+msgstr "単色"
+
+#: ../plugins/circles/circles.xml.in.h:1
+msgid "Size"
+msgstr "大きさ"
+
+#: ../plugins/noise/noise.xml.h:3
+msgid "Size of a particle"
+msgstr "粒子の大きさ"
+
+#: ../plugins/nexus/nexus.xml.h:3
+msgid "Size of a pulse"
+msgstr "パルスの大きさ"
+
+#: ../plugins/galaxy/galaxy.xml.h:3
+msgid "Size of a star"
+msgstr "星1個あたりの大きさ"
+
+#: ../plugins/circles/circles.xml.in.h:2
+msgid "Size of the main circle"
+msgstr "メインの円の大きさ"
+
+#: ../po/translations.h:55
+msgid "Slowly moving bubbles"
+msgstr "ゆっくりと移動する泡"
+
+#: ../plugins/photoslide/photoslide.xml.h:8
+msgid "Smoothness at the beginning of the animation (0.0: linear, 1.0: slow)"
+msgstr "アニメーション開始時の滑らかさ (0.0: 線形, 1.0: ゆっくり)"
+
+#: ../plugins/photoslide/photoslide.xml.h:10
+msgid "Smoothness at the end of the animation (0.0: linear, 1.0: slow)"
+msgstr "アニメーション終了時の滑らかさ (0.0: 線形, 1.0: ゆっくり)"
+
+#: ../plugins/galaxy/galaxy.xml.h:5
+msgid "Speed factor of the stars"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:4
+msgid "Speed ratio"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:8
+msgid "Star color"
+msgstr ""
+
+#: ../plugins/galaxy/galaxy.xml.h:2
+msgid "Star size"
+msgstr "星の大きさ"
+
+#: ../plugins/photoslide/photoslide.xml.h:7
+msgid "Start smoothness"
+msgstr "開始時の滑らかさ"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:8
+msgid ""
+"The first one is a full of options preference window. With it, you can "
+"manage LiveWallpaper as well as its installed plugins, an customize both of "
+"them without technical knowledge."
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:14
+msgid ""
+"The first row of this image will be used as list of possible colors for the "
+"circles. Which color will be chosen depends on the value of update interval "
+"and the width of the image, so not every color will be used."
+msgstr ""
+"この画像の1列目が、利用可能な円の色のリストに使用されます。どの色が選ばれるか"
+"は更新間隔と画像の幅に依存するため、すべての色は使われません。"
+
+#: ../plugins/circles/circles.xml.in.h:8
+msgid "The font to use for the time and the date"
+msgstr "時刻と日付に使用するフォント"
+
+#: ../data/livewallpaper.xml.h:30
+msgid "The font used to display the current frames per second"
+msgstr ""
+
+#: ../data/livewallpaper.xml.h:4
+msgid "The name of the active wallpaper plugin"
+msgstr "アクティブな壁紙プラグインの名前"
+
+#: ../plugins/photoslide/photoslide.xml.h:12
+msgid "The number of pictures for each horizontal line"
+msgstr "水平方向の画像の数"
+
+#: ../plugins/photoslide/photoslide.xml.h:14
+msgid "The number of pictures for each vertical line"
+msgstr "垂直方向の画像の数"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:14
+msgid ""
+"The second one is an applet for your panel that allow you to start or stop "
+"LiveWallpaper, to select the active plugin, and to quickly open the "
+"preferences window without passing by the menu."
+msgstr ""
+
+#: ../plugins/nexus/nexus.xml.h:9
+msgid "The shape of the glow"
+msgstr "光の形"
+
+#: ../plugins/noise/noise.xml.h:5
+msgid "The time a particle needs to appear or disappear"
+msgstr "粒子が出現したり隠れたりするのにかかる時間"
+
+#: ../plugins/nexus/nexus.xml.h:7
+msgid ""
+"This is the maximum time a pulse needs to reappear on the screen in "
+"milliseconds."
+msgstr ""
+"これはパルスが画面にもう一度現れるまでの最大遅延時間で、ミリ秒で指定します。"
+
+#: ../data/livewallpaper-config.appdata.xml.in.h:3
+msgid ""
+"This package provides two interfaces that permit you to configure your "
+"LiveWallpaper."
+msgstr ""
+
+#: ../ui/config/livewallpaper-config.ui.h:4
+msgid "This plugin doesn't support this livewallpaper version."
+msgstr ""
+
+#: ../po/translations.h:13
+msgid "Tile"
+msgstr "並べる"
+
+#: ../po/translations.h:48
+msgid "Time and date format"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:18
+msgid "Time to switch from one color to another color in milliseconds"
+msgstr ""
+
+#: ../plugins/circles/circles.xml.in.h:5
+msgid "Transparency"
+msgstr "不透明度"
+
+#: ../plugins/circles/circles.xml.in.h:6
+msgid "Transparency of the main circle"
+msgstr "メインの円の不透明度"
+
+#: ../plugins/circles/circles.xml.in.h:15
+msgid "Update interval"
+msgstr "更新間隔"
+
+#: ../plugins/circles/circles.xml.in.h:11
+msgid "Use 24 hour clock"
+msgstr "24時間時計の使用"
+
+#: ../plugins/nexus/nexus.xml.h:15
+msgid "Use random pulse colors"
+msgstr "ランダムなパルスの色を使用"
+
+#: ../plugins/nexus/nexus.xml.h:16
+msgid "Use random pulse colors instead of the four selected colors"
+msgstr "4つの選択された色の代わりに、ランダムなパルスの色を使用します"
+
+#: ../po/translations.h:8
+msgid "Vertical color gradient"
+msgstr "水平方向のグラデーション"
+
+#: ../plugins/galaxy/galaxy.xml.h:28
+msgid "X offset of the centre of the galaxy"
+msgstr "銀河中心のX軸方向のオフセット"
+
+#: ../plugins/galaxy/galaxy.xml.h:30
+msgid "Y offset of the centre of the galaxy"
+msgstr "銀河中心のY軸方向のオフセット"
+
+#: ../po/translations.h:24
+msgid "Year-Month-Day"
+msgstr "年-月-日"
+
+#: ../po/translations.h:23
+msgid "Year.Month.Day"
+msgstr "年.月.日"
+
+#: ../plugins/galaxy/galaxy.xml.h:17 ../po/translations.h:9
+msgid "Zoom"
+msgstr "ズーム"
+
+#: ../plugins/galaxy/galaxy.xml.h:18
+msgid "Zoom in and out"
+msgstr "ズームインとズームアウト"
+
+#: ../po/translations.h:30
+msgid "concentric circles"
+msgstr "同心円"
+
+#: ../ui/config/range-selector.vala:13
+msgid "from"
+msgstr "最短"
+
+#: ../po/translations.h:27
+msgid "radial"
+msgstr "円形"
+
+#: ../po/translations.h:29
+msgid "spiral"
+msgstr "渦巻き"
+
+#: ../po/translations.h:28
+msgid "square"
+msgstr "正方形"
+
+#: ../ui/config/range-selector.vala:15
+msgid "to"
+msgstr "最長"
+
+#: ../ui/config/application.vala:85
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Koichi Akabe https://launchpad.net/~vbkaisetsu\n"
+"  Maximilian Schnarr https://launchpad.net/~fyrmir"
+
+#~ msgid "Cannot find settings for this plugin."
+#~ msgstr "このプラグインの設定を見つけられません。"
+
+#~ msgid "Define whether the livewallpaper should autostart at startup"
+#~ msgstr "スタートアップ時にライブ壁紙を自動起動するかどうかを指定します"
+
+#~ msgid "Folders"
+#~ msgstr "フォルダー"
+
+#~ msgid "Max length"
+#~ msgstr "最大の長さ"
+
+#~ msgid "Max length of a pulse"
+#~ msgstr "パルスの最大の長さ"
+
+#~ msgid "Min length"
+#~ msgstr "最小の長さ"
+
+#~ msgid "Min length of a pulse"
+#~ msgstr "パルスの最小の長さ"
+
+#~ msgid "Move the window behind all other desktop windows"
+#~ msgstr "ウィンドウを他のすべてのデスクトップウィンドウの背後に移動する"
+
+#~ msgid "Pictures"
+#~ msgstr "画像"
+
+#~ msgid "Select a picture"
+#~ msgstr "画像の選択"
+
+#~ msgid ""
+#~ "Selects how the livewallpaper is displayed if multiple output devices are "
+#~ "used"
+#~ msgstr ""
+#~ "複数の出力デバイスを使用している場合に、ライブ壁紙をどのように表示するかを"
+#~ "選択します"
+
+#~ msgid "Show FPS in the lower right corner"
+#~ msgstr "右下にフレームレートを表示する"
+
+#~ msgid "Start LiveWallpaper if autostart is enabled"
+#~ msgstr "自動起動が有効の場合にライブ壁紙を開始する"
+
+#~ msgid "Time to switch from one color to another color"
+#~ msgstr "ある色から別の色に切り替えるのにかかる時間"
+
+#~ msgid "Wallpapers"
+#~ msgstr "壁紙"

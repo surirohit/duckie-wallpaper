@@ -1,0 +1,353 @@
+<refentry id="tut-schema">
+	<refmeta>
+		<refentrytitle>The configuration file</refentrytitle>
+		<manvolnum>3</manvolnum>
+		<refmiscinfo>LiveWallpaper Core</refmiscinfo>
+	</refmeta>
+	<refnamediv>
+		<refname>The configuration file</refname>
+		<refpurpose>Brief tutorial on writing a configuration file for a plugin</refpurpose>
+	</refnamediv>
+
+	<refsect1><title>The configuration file</title>
+		<para>
+			The configuration file of a plugin is just a
+			<link linkend="GSettings.description">GSettings schema</link>
+			with extra tags. This document explains all the extra tags
+			used and sometimes required by LiveWallpaper.
+		</para>
+
+		<refsect2><title>Schema id</title>
+			<para>
+				Since LiveWallpaper 0.4 it is possible to use the
+				schema id you want, you just have to set the Schema-id key
+				in the <link linkend="plugin-file">.plugin file</link>.
+				If you don't want to use a custom schema id, you can use the default one:
+				<emphasis>net.launchpad.livewallpaper.plugins.PLUGIN_NAME</emphasis>
+			</para>
+		</refsect2>
+
+		<refsect2><title>Filename and installation path</title>
+			<para>
+				The file has to be named <filename><replaceable>$Module</replaceable>.xml</filename>,
+				where <replaceable>$Module</replaceable> is the same name as in the .plugin file.
+			</para>
+		</refsect2>
+
+		<example><title>Minimal configuration file</title>
+<programlisting>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;schemalist&gt;
+    &lt;!-- Place your enums here --&gt;
+    &lt;schema id='net.launchpad.livewallpaper.plugins.$Module' path='/net/launchpad/livewallpaper/plugins/'&gt;
+        &lt;!-- Place your keys here --&gt;
+    &lt;/schema&gt;
+&lt;/schemalist&gt;
+</programlisting>
+		</example>
+	</refsect1>
+
+	<refsect1><title>Tabs and separators</title>
+		<para>
+			The configurator reads the keys from top to bottom. So the keys on top of the schema
+			file will also be the first in the configurator. It makes possible to group your
+			keys by categories. LiveWallpaper provides three tags to organize your keys,
+			the <emphasis>&lt;lw:tab&gt;</emphasis> tag, the <emphasis>&lt;lw:frame&gt;</emphasis> tag,
+			and the <emphasis>&lt;lw:separator /&gt;</emphasis> tag.
+		</para>
+		<para>
+			The <emphasis>&lt;lw:tab&gt;</emphasis> tag tells the configurator to create a new tab that
+			contains all the following keys until the next <emphasis>&lt;/lw:tab&gt;</emphasis> tag.
+			Tabs permit you to split your keys by categories (eg: Appearance, Miscellaneous...).
+			The keys located out of a tab won't be shown.
+		</para>
+		<para>
+			The <emphasis>&lt;lw:frame&gt;</emphasis> tag permits to group tags inside one frame.
+			It works like tabs.
+		</para>
+		<para>
+			These two tags take one parameter which is the label of the tab
+			in the configurator.
+		</para>
+		<para>
+			To separate keys in a tab you can use the <emphasis>&lt;lw:separator /&gt;</emphasis> tag.
+			A separator separate two keys with an horizontal line. This tag takes no parameter.
+		</para>
+
+		<informalexample>
+<programlisting>
+&lt;lw:tab name="A tab"&gt;
+	&lt;lw:frame name="A frame"&gt;
+		&lt;-- Some keys... --&gt;
+		&lt;lw:separator /&gt;
+		&lt;-- Some keys... --&gt;
+	&lt;/lw:frame&gt;
+&lt;/lw:tab&gt;
+</programlisting>
+		</informalexample>
+	</refsect1>
+
+	<refsect1><title>Keys</title>
+		<para>
+			Every key consists of the following things:
+			<itemizedlist>
+				<listitem>
+                    <emphasis>type</emphasis>: The data type of the key. This document explains
+                    the most common data types in the following sections.
+				</listitem>
+				<listitem>
+                    <emphasis>name</emphasis>: An internal name for the key. You use this name
+                    to get the value of the key or to bind it to a property of a GObject.
+				</listitem>
+				<listitem>
+                    <emphasis>summary</emphasis>: A summary of the key that will be shown in the
+                    configurator.
+				</listitem>
+				<listitem>
+                    <emphasis>description</emphasis>: A description of the key. It will be shown
+                    as tooltip in the configurator.
+				</listitem>
+			</itemizedlist>
+		</para>
+
+		<refsect2><title>Types</title>
+			<para>
+                The configurator supports enums, and the types "b", "y", "n", "q", "i", "u", "x", "t", "d", "s",
+                and can recognize "(dd)" and "as" if specialized with lw:type.
+                More information related to GVariantTypes can be found in the
+                <ulink url="https://developer.gnome.org/glib/stable/glib-GVariantType.html">GLib reference manual</ulink>.
+			</para>
+            <refsect3><title>Enumerations</title>
+                <para>
+                    Enumerations allow the user to choose a value from a list of valid choices.
+                </para>
+                <para>
+                    An enumeration consists of an id and a list of nick-value-pairs.
+                    The id usually starts with the schema id followed by a dot
+                    and the name of the enumeration.
+                    The nick of each nick-value-pair will be shown in the configurator
+                    in a ComboBox.
+                    The value will be internally used to identify the selected option.
+                    You can use the value you want, in any order, but you cannot use
+                    a value twice per enum.
+                </para>
+                <informalexample>
+                    <programlisting>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;schemalist&gt;
+    &lt;enum id="net.lauchpad.livewallpaper.plugins.$Module.ENUM_NAME"&gt;
+        &lt;value nick="value1" value="2" /&gt;
+        &lt;value nick="value2" value="4" /&gt;
+        &lt;value nick="value3" value="5" /&gt;
+    &lt;/enum&gt;
+
+    &lt;schema id="net.launchpad.livewallpaper.plugins.$Module" path="/net/launchpad/livewallpaper/plugins/"&gt;
+        &lt;key name="enum-key" enum="ENUM.ID"&gt;
+            &lt;default&gt;"value2"&lt;/default&gt;
+            &lt;summary&gt;An enum key&lt;/summary&gt;
+            &lt;description&gt;Description of this enum key&lt;/description&gt;
+        &lt;/key&gt;
+    &lt;/schema&gt;
+&lt;/schemalist&gt;
+                    </programlisting>
+                </informalexample>
+                <para>
+                    A good place to define your enums is between the <emphasis>schemalist</emphasis> and
+                    the <emphasis>schema</emphasis> tag (See Example 1 at the top of the page).
+                </para>
+                <para>
+                    An enumerated key is like any other key, but instead of a
+                    data type it needs an enum id. For the default value you
+                    have to use the nick of the list element you want as default.
+                </para>
+                <para>
+                    You can use <link linkend="lw-settings-bind-enum"><function>lw_settings_bind_enum()</function></link>
+                    if you want to bind an enumerated key to a property of a GObject.
+                </para>
+            </refsect3>
+            <refsect3><title>Specialized types</title>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            Sometimes, a specific widget can be used to control the data entered by the user and help him
+                            to fill the inputs with a correct value, so that select a file or a color doesn't requires to
+                            type it manually.
+                        </listitem>
+                        <listitem>
+                            Union types and arrays are not understood by the configurator as it doesn't know how to display
+                            them by default.
+                        </listitem>
+                    </itemizedlist>
+                    To specify the concrete type of a key, you can use the tag <emphasis>lw:type</emphasis> with one of the
+                    following values :
+                    <itemizedlist>
+                        <listitem>
+                            <emphasis>range</emphasis>: Shows a range selector. [base type : (dd)]
+                        </listitem>
+                        <listitem>
+                            <emphasis>file</emphasis>: Shows a file selector [base type : s]
+                        </listitem>
+                        <listitem>
+                            <emphasis>folder</emphasis>: Shows a folder selector [base type : s]
+                        </listitem>
+                        <listitem>
+                            <emphasis>folders</emphasis>: Shows a list
+                            with two buttons to add or remove
+                            directories. [base type : as]
+                        </listitem>
+                        <listitem>
+                            <emphasis>files</emphasis>: Shows a list with
+                            two buttons to add or remove files. [base type : as]
+                        </listitem>
+                        <listitem>
+                            <emphasis>font</emphasis>: Shows a font selector [base type : s]
+                        </listitem>
+                        <listitem>
+                            <emphasis>color</emphasis>: Shows a RGBA color chooser.  [base type : s]
+                            <para>
+                                LiveWallpaper provides some functions to get colors from GSettings. The easiest way
+                                is to use <link linkend="lw-settings-bind-color"><function>lw_settings_bind_color()</function></link>.
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+                <example><title>A string key which will become a RGBA color container</title>
+                    <programlisting>
+&lt;key type="s" name="color"&gt;
+    &lt;lw:type&gt;color&lt;/lw:type&gt;
+    &lt;default&gt;rgba (80, 37, 52, 255)&lt;/default&gt;
+    &lt;summary&gt;Color&lt;/summary&gt;
+    &lt;description&gt;A RGBA color key&lt;/description&gt;
+&lt;/key&gt;</programlisting>
+                </example>
+                <example><title>A string array key which will contain a folders list</title>
+                    <programlisting>
+&lt;key type="as" name="folders"&gt;
+   &lt;lw:type&gt;folders&lt;/lw:type&gt;
+    &lt;default&gt;["/first/folder", "/second/folder"]&lt;/default&gt;
+    &lt;summary&gt;Folders&lt;/summary&gt;
+    &lt;description&gt;Use these folders for something&lt;/description&gt;
+&lt;/key&gt;</programlisting>
+                </example>
+            </refsect3>
+            <refsect3><title>Labels</title>
+                Special tag that permits to add a text in the configurator.
+                <informalexample>
+                    <programlisting>
+&lt;lw:label&gt;
+    Hello World
+&lt;/lw:label&gt;
+                    </programlisting>
+                </informalexample>
+            </refsect3>
+        </refsect2>
+        <refsect2><title>Constraints and behavior modifiers</title>
+            <refsect3><title>For numeric values (except booleans, including lw:range)</title>
+                <para>
+                    There are four possible tags to adjust a numeric value:
+                    <itemizedlist>
+                        <listitem>
+                            <para>
+                                <emphasis>range</emphasis>: This tag provided by GSettings allows you to
+                                set a minimum and a maximum value for your numeric keys.
+                            </para>
+                            <para>
+                                <emphasis>lw:range</emphasis>: This tag do the same as the previous one
+                                for numeric keys, but is also effective on ranges (type '(bb)').
+                                If your key is not a range, you should use range because lw:range is
+                                effective only in the configurator and not in gsettings/dconf utilities.
+                                <informalexample>
+                                    <programlisting>&lt;range min="0" max="64" /&gt;</programlisting>
+                                </informalexample>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                <emphasis>lw:wrap</emphasis>: This tag permits to make the configurator
+                                tell Gtk to wrap a numeric value around	to the opposite limit when
+                                the upper or lower limit of the range is exceeded.
+                                <informalexample>
+                                    <programlisting>&lt;wrap /&gt;</programlisting>
+                                </informalexample>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                <emphasis>lw:increment</emphasis>: This will set the increment step. The
+                                key value will be incremented/decremented by this value if the user makes
+                                a &lt;button1&gt; click on the more or the less button of this key in the
+                                configurator. This is a special tag only understood by LiveWallpaper,
+                                so make sure to put it in a comment.
+                                <informalexample>
+                                    <programlisting>&lt;lw:increment&gt;5&lt;/lw:increment&gt;</programlisting>
+                                </informalexample>
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para>
+                                <emphasis>lw:digits</emphasis>: This will set the number of decimals that
+                                will be displayed in the configurator. It will also set the increment to the
+                                lowest possible value. This is a special tag so make sure to put it in a
+                                comment.
+                                <informalexample>
+                                    <programlisting>&lt;lw:digits&gt;2&lt;/lw:digits&gt;</programlisting>
+                                </informalexample>
+                                This will set the number of decimals to 2 and the increment step to 0.01.
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+                <example><title>A double precision key with all its possible options</title>
+                    <programlisting>
+&lt;key type="d" name="double"&gt;
+    &lt;range min="0" max="64" /&gt;
+    &lt;lw:increment&gt;5&lt;/lw:increment&gt;
+    &lt;lw:digits&gt;2&lt;/lw:digits&gt;
+    &lt;default&gt;8&lt;/default&gt;
+    &lt;summary&gt;Double value&lt;/summary&gt;
+    &lt;description&gt;An double precision key&lt;/description&gt;
+&lt;/key&gt;
+                    </programlisting>
+                </example>
+            </refsect3>
+            <refsect3><title>For file(s) and folder(s) selectors</title>
+                <para>
+                    The file(s) and folder(s) selectors can receive a filefilter so that
+                    the selected files match with a given pattern or mime-type. You can
+                    set several patterns and/or mime-types, and use the built-in pixbuf
+                    filter, and name your filter.
+                </para>
+                <example><title>A string key which will contain the path to a file with filters.</title>
+                    <programlisting>
+&lt;key type="s" name="file"&gt;
+    &lt;lw:type&gt;file&lt;/lw:type&gt;
+    &lt;lw:filefilter name="My filter" pixbuf="true"&gt;text/html;*.vala&lt;/lw:filefilter&gt;
+    &lt;default&gt;"/path/to/somewhere.vala"&gt;
+    &lt;summary&gt;File&lt;/summary&gt;
+    &lt;description&gt;The path to a file&lt;/description&gt;
+&lt;/key&gt;</programlisting>
+                </example>
+            </refsect3>
+		</refsect2>
+
+	</refsect1>
+
+    <refsect1><title>Tab/Frames/Keys/Labels visibility</title>
+        <para>
+            In some case you could want the configurator never to show a key.
+            To do this, you should place the hidden key out of a &lt;lw:tab&gt; tag.
+        </para>
+        <para>
+            Sometimes you might want to show a key/frame/tab only if...
+            To do so you can add the <emphasis>&lt;lw:DisplayIf [attr="val"]/&gt;</emphasis> tag.
+            You cannot write anything you want as condition. The allowed expressions are
+        </para>
+            <itemizedlist>
+                <listitem><para><emphasis>computer="[Laptop/Desktop]"</emphasis>: Checks whether the computer is a laptop/desktop</para></listitem>
+                <listitem><para><emphasis>lwmin="str"</emphasis>: Checks whether the LiveWallpaper version is higher than the one passed in value</para></listitem>
+                <listitem><para><emphasis>lwmax="str"</emphasis>: Checks whether the LiveWallpaper version is lower than the one passed in value</para></listitem>
+            </itemizedlist>
+        <para>Like the tags, the expressions are case sensitive too.</para>
+        <para>If you need another conditions, please report a bug so that we can consider your mind.</para>
+    </refsect1>
+</refentry>
